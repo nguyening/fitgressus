@@ -1,0 +1,68 @@
+[
+	{
+		"label"	:	"Back & Bis",
+		"exercises"	:	[
+			"Barbell Bent-over Row",
+			"Barbell 21s Curls",
+			"Dumbbell Curls",
+			"Reverse Cable Curls",
+			"One-arm Dumbbell Row",
+			"Preacher Curl",
+			"Wide-grip Cable Pulldown",
+			"Straight-arm Cable Pulldown",
+			"Smith Machine Bent-over Row",
+			"Elevated Cable Row",
+			"Machine Pulldown",
+			"Machine Row"
+		]
+	},
+	{
+		"label"	:	"Shoulders",
+		"exercises"	:	[
+			"Shrugs",
+			"Barbell Military Press",
+			"Dumbbell Front Raise",
+			"Dumbbell Reverse Flys",
+			"Dumbbell Shoulder Press",
+			"Rear-delt Cable Row",
+			"Dumbbell Side Lat Raise",
+			"Machine Reverse Flys",
+			"Upright Cable Row",
+			"Elevated Row to Neck",
+			"Machine Shoulder Press"
+		]
+	},
+	{
+		"label"	:	"Chest & Tris",
+		"exercises"	:	[
+			"Inclined Dumbbell Press",
+			"Assisted Dips",
+			"Dumbbell Flys",
+			"Reverse Cable Pushdown",
+			"Bench Dips",
+			"Machine Tricep Press",
+			"Smith Machine Bench Press",
+			"Bench Press",
+			"Inclined Bench Press",
+			"Push-ups",
+			"Machine Chest Press",
+			"Dumbbell Skull Crusher"
+		]
+	},
+	{
+		"label"	:	"Legs",
+		"exercises"	:	[
+			"Barbell Squats",
+			"Dumbbell Squats",
+			"Smith Machine Squats",
+			"Dumbbell Lunges",
+			"Seated Leg Press",
+			"Leg Press",
+			"Calf Raises",
+			"Romanian Deadlift",
+			"Machine Leg Extensions",
+			"Calf Press on Leg Machine",
+			"Smith Machine Hack Squat"
+		]
+	}
+]
