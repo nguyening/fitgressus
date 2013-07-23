@@ -1,5 +1,13 @@
 [
 	{
+		"label"	:	"Abs",
+		"exercises"	:	[
+			"Inclined Curl Ups",
+			"Inclined Plate Twist",
+			"Leg Raise on Parallel Bars"
+		]
+	},
+	{
 		"label"	:	"Back & Bis",
 		"exercises"	:	[
 			"Barbell Bent-over Row",

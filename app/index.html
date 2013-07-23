@@ -2,8 +2,8 @@
 <html lang="en" ng-app="fitgressus">
 <head>
   <meta charset="utf-8">
-  <title>Fitgress</title>
-  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  <title>Fitgressus</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css"/>
   <style type="text/css">
   .container-narrow {
@@ -22,12 +22,12 @@
   </style>
 </head>
 <body>
-  <div class="container-narrow">
+  <div class="container-fluid">
     <div class="masthead">
       <h3 class="muted">Fitgressus</h3>
     </div>
     <hr />
-    <div ng-view></div>
+    <div ng-view class="row-fluid"></div>
 
   </div>
   <!-- In production use:

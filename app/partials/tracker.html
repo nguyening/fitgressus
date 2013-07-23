@@ -19,7 +19,7 @@
 
 			<div class="row-fluid">
 				<label for="workout-duration-input">Duration: </label>
-				<input id="workout-duration-input" type="time" ng-model="workout.duration" required />
+				<input id="workout-duration-input" type="text" ng-model="workout.duration" required />
 			</div>
 		</div>
 		</div>
@@ -27,7 +27,12 @@
 
 	<hr />
 
-	<h4>Exercise Cloud</h4>
+	<h4>
+		Exercise Cloud
+	<a 
+		class="btn btn-mini"
+		ng-click="newExercise('Unnamed')"><i class="icon-plus"></i></a>
+	</h4>
 	<div class="row-fluid">
 		<a 
 			class="btn btn-mini"
@@ -92,9 +97,9 @@
 					<td>{{exercise.reps}}</td>
 					<td>{{exercise.wt}}</td>
 					<td>{{exercise.sets}}</td>
-					<td><a 
+					<td class="text-center"><a 
 						class="btn btn-danger"
-						ng-click="removeExercise($index)">X</a></td>
+						ng-click="removeExercise($index)"><i class="icon-remove icon-white"></i></a></td>
 				</tr>
 			</tbody>
 		</table>
