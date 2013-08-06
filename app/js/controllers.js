@@ -3,9 +3,9 @@
 /* Controllers */
 
 angular.module('fitgressus.controllers', []).
-	controller('StartWorkoutCtrl', ['$scope', '$location', '$rootScope', '$cookieStore', function($scope, $location, $rootScope, $cookieStore) {
+	controller('StartWorkoutCtrl', ['$scope', '$location', '$rootScope', 'Cookies', function($scope, $location, $rootScope, Cookies) {
 		$scope.date = new Date().toJSON().slice(0, 10);   //default date to today
-		$scope.previousWorkouts = $cookieStore.get('workouts');
+		$scope.previousWorkouts = JSON.parse(Cookies.getItem('workouts'));
 		$scope.beginWorkout = function () {
 			$rootScope.workout = {  // TODO: turn into service
 				date: $scope.date,
@@ -19,7 +19,7 @@ angular.module('fitgressus.controllers', []).
 
 		$scope.removeWorkout = function (workoutIdx) {
 			$scope.previousWorkouts.splice(workoutIdx, 1);
-			$cookieStore.put('workouts', $scope.previousWorkouts);
+			Cookies.setItem('workouts', JSON.stringify($scope.previousWorkouts), Infinity);
 		};
 
 		$scope.reviewWorkout = function (workoutIdx) {
@@ -33,7 +33,6 @@ angular.module('fitgressus.controllers', []).
 
 		$scope.startExercise = function (exerciseName) {
 			$rootScope.selectedWorkoutType = $scope.selectedWorkoutType;
-			console.log($rootScope.selectedWorkoutType);
 			$rootScope.currentExercise = exerciseName;
 			$location.path('/exercise');  
 		};
@@ -92,7 +91,7 @@ angular.module('fitgressus.controllers', []).
 			$scope.currentExercise.sets = 0;
 		};
 	}]).
-	controller('EndCtrl', ['$scope', '$location', '$rootScope', '$cookieStore', function($scope, $location, $rootScope, $cookieStore) {
+	controller('EndCtrl', ['$scope', '$location', '$rootScope', 'Cookies', function($scope, $location, $rootScope, Cookies) {
 		if($rootScope.workout == undefined)
 			$location.path('/index');
 
@@ -111,15 +110,14 @@ angular.module('fitgressus.controllers', []).
 		$scope.done = function () {
 			$rootScope.workout.duration = $scope.duration;
 
-			var workouts = $cookieStore.get('workouts') || [];
+			var workouts = JSON.parse(Cookies.getItem('workouts')) || [];
 			workouts.unshift($rootScope.workout);
-			$cookieStore.put('workouts', workouts);
-			console.log($cookieStore.get('workouts'));
+			Cookies.setItem('workouts', JSON.stringify(workouts), Infinity);
 			$location.path('/index');
 		};
 	}]).
-	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', '$cookieStore', '$location', function ($scope, $routeParams, $cookieStore, $location) {
-		var workouts = $cookieStore.get('workouts');
+	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'Cookies', '$location', function ($scope, $routeParams, Cookies, $location) {
+		var workouts = JSON.parse(Cookies.getItem('workouts'));
 		var idx = $routeParams.idx;
 		if(workouts.length <= idx)
 			$location.path('/index');
