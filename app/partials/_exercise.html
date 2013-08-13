@@ -1,8 +1,6 @@
 <div class="well span12 current-exercise">
 	<div class="row-fluid current-exercise-weight-control">
-		<h3 class="text-center">
-			{{currentExercise.name}}
-		</h3>
+		<h3 class="text-center" contenteditable="true" ng-model="currentExercise.name">{{currentExercise.name}}</h3>
 		<p class="text-center">
 			<input type="number" pattern="[0-9]*" ng-model="currentExercise.reps" /> 
 			@ 
