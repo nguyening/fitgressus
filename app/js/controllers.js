@@ -26,12 +26,12 @@ angular.module('fitgressus.controllers', []).
 			$location.path('/review/'+workoutIdx);
 		};
 
-		$scope.addDummyData = function () {
-			$http.get('data/previousWorkouts.json').success(function (data) {
-				$scope.previousWorkouts = data;
-				webStorage.add('workouts', JSON.stringify(data), Infinity);
-			});
-		};
+		// $scope.addDummyData = function () {
+		// 	$http.get('data/previousWorkouts.json').success(function (data) {
+		// 		$scope.previousWorkouts = data;
+		// 		webStorage.add('workouts', JSON.stringify(data), Infinity);
+		// 	});
+		// };
 
 	}]).
 	controller('WorkoutCtrl', ['$scope', '$location', '$http', '$rootScope', function($scope, $location, $http, $rootScope) {
