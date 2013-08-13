@@ -2,9 +2,10 @@
 
 /* Controllers */
 angular.module('fitgressus.controllers', []).
-	controller('StartWorkoutCtrl', ['$scope', '$location', '$rootScope', 'Cookies', function($scope, $location, $rootScope, Cookies) {
+	controller('StartWorkoutCtrl', ['$scope', '$location', '$rootScope', 'webStorage', '$http', function($scope, $location, $rootScope, webStorage, $http) {
 		$scope.date = new Date().toJSON().slice(0, 10);   //default date to today
-		$scope.previousWorkouts = JSON.parse(Cookies.getItem('workouts'));
+		$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
+
 		$scope.beginWorkout = function () {
 			$rootScope.workout = {  // TODO: turn into service
 				date: $scope.date,
@@ -18,11 +19,18 @@ angular.module('fitgressus.controllers', []).
 
 		$scope.removeWorkout = function (workoutIdx) {
 			$scope.previousWorkouts.splice(workoutIdx, 1);
-			Cookies.setItem('workouts', JSON.stringify($scope.previousWorkouts), Infinity);
+			webStorage.add('workouts', JSON.stringify($scope.previousWorkouts), Infinity);
 		};
 
 		$scope.reviewWorkout = function (workoutIdx) {
 			$location.path('/review/'+workoutIdx);
+		};
+
+		$scope.addDummyData = function () {
+			$http.get('data/previousWorkouts.json').success(function (data) {
+				$scope.previousWorkouts = data;
+				webStorage.add('workouts', JSON.stringify(data), Infinity);
+			});
 		};
 
 	}]).
@@ -90,7 +98,7 @@ angular.module('fitgressus.controllers', []).
 			$scope.currentExercise.sets = 0;
 		};
 	}]).
-	controller('EndCtrl', ['$scope', '$location', '$rootScope', 'Cookies', function($scope, $location, $rootScope, Cookies) {
+	controller('EndCtrl', ['$scope', '$location', '$rootScope', 'webStorage', function($scope, $location, $rootScope, webStorage) {
 		if($rootScope.workout == undefined)
 			$location.path('/index');
 
@@ -109,14 +117,14 @@ angular.module('fitgressus.controllers', []).
 		$scope.done = function () {
 			$rootScope.workout.duration = $scope.duration;
 
-			var workouts = JSON.parse(Cookies.getItem('workouts')) || [];
+			var workouts = JSON.parse(webStorage.get('workouts')) || [];
 			workouts.unshift($rootScope.workout);
-			Cookies.setItem('workouts', JSON.stringify(workouts), Infinity);
+			webStorage.add('workouts', JSON.stringify(workouts), Infinity);
 			$location.path('/index');
 		};
 	}]).
-	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'Cookies', '$location', function ($scope, $routeParams, Cookies, $location) {
-		var workouts = JSON.parse(Cookies.getItem('workouts'));
+	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'webStorage', '$location', function ($scope, $routeParams, webStorage, $location) {
+		var workouts = JSON.parse(webStorage.get('workouts'));
 		var idx = $routeParams.idx;
 		if(workouts.length <= idx)
 			$location.path('/index');

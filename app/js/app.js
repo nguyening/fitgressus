@@ -2,7 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('fitgressus', ['cookiesModule', 'fitgressus.controllers', 'fitgressus.directives']).
+angular.module('fitgressus', ['cookiesModule', 'webStorageModule', 'fitgressus.controllers', 'fitgressus.directives']).
 	config(['$routeProvider', function($routeProvider) {
 		$routeProvider.when('/index', {templateUrl: 'partials/_startWorkout.html', controller: 'StartWorkoutCtrl'});
 		$routeProvider.when('/workout', {templateUrl: 'partials/_workout.html', controller: 'WorkoutCtrl'});

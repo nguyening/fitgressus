@@ -1,0 +1,2966 @@
+[
+    {
+        "date": "2013-08-01",
+        "exercises": [
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 165,
+                "sets": 5
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 264,
+                "sets": 3
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 167,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 193,
+                "sets": 5
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 229,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 91,
+                "sets": 2
+            },
+            {
+                "name": "Bench Dips",
+                "reps": "7",
+                "wt": 164,
+                "sets": 5
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 174,
+                "sets": 2
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 133,
+                "sets": 5
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 220,
+                "sets": 5
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 81,
+                "sets": 3
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 346,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 134,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Plate Twist",
+                "reps": "7",
+                "wt": 111,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 262,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 186,
+                "sets": 2
+            },
+            {
+                "name": "Smith Machine Hack Squat",
+                "reps": "7",
+                "wt": 173,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 304,
+                "sets": 4
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 204,
+                "sets": 5
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 133,
+                "sets": 3
+            }
+        ],
+        "duration": "1:18:39"
+    },
+    {
+        "date": "2013-08-02",
+        "exercises": [
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 332,
+                "sets": 3
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 110,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 41,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 212,
+                "sets": 5
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 223,
+                "sets": 4
+            },
+            {
+                "name": "Machine Tricep Press",
+                "reps": "7",
+                "wt": 166,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 108,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 224,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 92,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 132,
+                "sets": 2
+            }
+        ],
+        "duration": "1:12:51"
+    },
+    {
+        "date": "2013-08-03",
+        "exercises": [
+            {
+                "name": "Inclined Plate Twist",
+                "reps": "7",
+                "wt": 75,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 341,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 272,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 344,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 24,
+                "sets": 5
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 24,
+                "sets": 2
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 309,
+                "sets": 4
+            },
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 299,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 153,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 107,
+                "sets": 4
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 349,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 142,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 289,
+                "sets": 5
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 41,
+                "sets": 2
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 133,
+                "sets": 2
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 37,
+                "sets": 2
+            },
+            {
+                "name": "Smith Machine Hack Squat",
+                "reps": "7",
+                "wt": 201,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 140,
+                "sets": 4
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 266,
+                "sets": 3
+            }
+        ],
+        "duration": "1:10:42"
+    },
+    {
+        "date": "2013-08-04",
+        "exercises": [
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 148,
+                "sets": 3
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 161,
+                "sets": 4
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 161,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 300,
+                "sets": 3
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 173,
+                "sets": 2
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 138,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 66,
+                "sets": 3
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 103,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 187,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 188,
+                "sets": 3
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 215,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 241,
+                "sets": 2
+            }
+        ],
+        "duration": "1:00:46"
+    },
+    {
+        "date": "2013-08-05",
+        "exercises": [
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 202,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 19,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 335,
+                "sets": 3
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 303,
+                "sets": 2
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 340,
+                "sets": 3
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 261,
+                "sets": 2
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 297,
+                "sets": 3
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 70,
+                "sets": 3
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 330,
+                "sets": 3
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 191,
+                "sets": 2
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 311,
+                "sets": 3
+            },
+            {
+                "name": "Machine Tricep Press",
+                "reps": "7",
+                "wt": 116,
+                "sets": 3
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 205,
+                "sets": 3
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 214,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 254,
+                "sets": 4
+            }
+        ],
+        "duration": "1:58:51"
+    },
+    {
+        "date": "2013-08-06",
+        "exercises": [
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 220,
+                "sets": 5
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 172,
+                "sets": 5
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 213,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 194,
+                "sets": 4
+            },
+            {
+                "name": "Smith Machine Bent-over Row",
+                "reps": "7",
+                "wt": 300,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 173,
+                "sets": 2
+            },
+            {
+                "name": "Machine Shoulder Press",
+                "reps": "7",
+                "wt": 333,
+                "sets": 2
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 335,
+                "sets": 3
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 133,
+                "sets": 2
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 235,
+                "sets": 3
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 107,
+                "sets": 4
+            },
+            {
+                "name": "One-arm Dumbbell Row",
+                "reps": "7",
+                "wt": 144,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 173,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 346,
+                "sets": 5
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 328,
+                "sets": 4
+            }
+        ],
+        "duration": "1:53:36"
+    },
+    {
+        "date": "2013-08-07",
+        "exercises": [
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 74,
+                "sets": 2
+            },
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 248,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 42,
+                "sets": 5
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 207,
+                "sets": 2
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 300,
+                "sets": 5
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 132,
+                "sets": 4
+            },
+            {
+                "name": "Smith Machine Squats",
+                "reps": "7",
+                "wt": 201,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 293,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 46,
+                "sets": 2
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 103,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 316,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 254,
+                "sets": 2
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 253,
+                "sets": 2
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 321,
+                "sets": 2
+            }
+        ],
+        "duration": "1:26:58"
+    },
+    {
+        "date": "2013-08-08",
+        "exercises": [
+            {
+                "name": "Machine Pulldown",
+                "reps": "7",
+                "wt": 274,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 33,
+                "sets": 3
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 155,
+                "sets": 2
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 129,
+                "sets": 4
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 149,
+                "sets": 5
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 251,
+                "sets": 5
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 75,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 320,
+                "sets": 4
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 172,
+                "sets": 2
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 196,
+                "sets": 2
+            },
+            {
+                "name": "Machine Shoulder Press",
+                "reps": "7",
+                "wt": 56,
+                "sets": 2
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 260,
+                "sets": 4
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 19,
+                "sets": 4
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 24,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 75,
+                "sets": 3
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 339,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 321,
+                "sets": 3
+            },
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 209,
+                "sets": 5
+            }
+        ],
+        "duration": "1:22:05"
+    },
+    {
+        "date": "2013-08-09",
+        "exercises": [
+            {
+                "name": "Smith Machine Hack Squat",
+                "reps": "7",
+                "wt": 261,
+                "sets": 2
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 45,
+                "sets": 2
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 261,
+                "sets": 5
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 186,
+                "sets": 4
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 59,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 31,
+                "sets": 4
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 253,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 165,
+                "sets": 2
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 106,
+                "sets": 5
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 214,
+                "sets": 5
+            },
+            {
+                "name": "Machine Pulldown",
+                "reps": "7",
+                "wt": 278,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 124,
+                "sets": 3
+            }
+        ],
+        "duration": "1:32:28"
+    },
+    {
+        "date": "2013-08-10",
+        "exercises": [
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 74,
+                "sets": 3
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 65,
+                "sets": 2
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 94,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 58,
+                "sets": 2
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 26,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 248,
+                "sets": 2
+            },
+            {
+                "name": "Machine Tricep Press",
+                "reps": "7",
+                "wt": 42,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 38,
+                "sets": 4
+            },
+            {
+                "name": "Machine Pulldown",
+                "reps": "7",
+                "wt": 113,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Plate Twist",
+                "reps": "7",
+                "wt": 76,
+                "sets": 3
+            },
+            {
+                "name": "One-arm Dumbbell Row",
+                "reps": "7",
+                "wt": 307,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 87,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Plate Twist",
+                "reps": "7",
+                "wt": 282,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Side Lat Raise",
+                "reps": "7",
+                "wt": 202,
+                "sets": 2
+            }
+        ],
+        "duration": "1:13:18"
+    },
+    {
+        "date": "2013-08-11",
+        "exercises": [
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 89,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 268,
+                "sets": 3
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 134,
+                "sets": 2
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 263,
+                "sets": 4
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 29,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Side Lat Raise",
+                "reps": "7",
+                "wt": 88,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 202,
+                "sets": 2
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 219,
+                "sets": 2
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 252,
+                "sets": 4
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 170,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 120,
+                "sets": 5
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 47,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 18,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Plate Twist",
+                "reps": "7",
+                "wt": 345,
+                "sets": 4
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 44,
+                "sets": 3
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 103,
+                "sets": 2
+            }
+        ],
+        "duration": "1:09:46"
+    },
+    {
+        "date": "2013-08-12",
+        "exercises": [
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 255,
+                "sets": 2
+            },
+            {
+                "name": "One-arm Dumbbell Row",
+                "reps": "7",
+                "wt": 228,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 119,
+                "sets": 3
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 242,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 54,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 30,
+                "sets": 3
+            },
+            {
+                "name": "Machine Pulldown",
+                "reps": "7",
+                "wt": 347,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 179,
+                "sets": 3
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 201,
+                "sets": 2
+            },
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 161,
+                "sets": 4
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 144,
+                "sets": 3
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 40,
+                "sets": 3
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 139,
+                "sets": 3
+            },
+            {
+                "name": "Machine Pulldown",
+                "reps": "7",
+                "wt": 318,
+                "sets": 4
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 20,
+                "sets": 3
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 22,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 321,
+                "sets": 5
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 102,
+                "sets": 5
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 284,
+                "sets": 2
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 259,
+                "sets": 2
+            }
+        ],
+        "duration": "1:03:23"
+    },
+    {
+        "date": "2013-08-13",
+        "exercises": [
+            {
+                "name": "Smith Machine Squats",
+                "reps": "7",
+                "wt": 346,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Side Lat Raise",
+                "reps": "7",
+                "wt": 27,
+                "sets": 5
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 142,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 242,
+                "sets": 3
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 132,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 47,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 200,
+                "sets": 2
+            },
+            {
+                "name": "Smith Machine Hack Squat",
+                "reps": "7",
+                "wt": 63,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 321,
+                "sets": 3
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 15,
+                "sets": 3
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 168,
+                "sets": 2
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 74,
+                "sets": 2
+            }
+        ],
+        "duration": "1:43:28"
+    },
+    {
+        "date": "2013-08-14",
+        "exercises": [
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 169,
+                "sets": 2
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 344,
+                "sets": 3
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 103,
+                "sets": 4
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 196,
+                "sets": 5
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 171,
+                "sets": 3
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 296,
+                "sets": 5
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 30,
+                "sets": 4
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 249,
+                "sets": 4
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 308,
+                "sets": 5
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 189,
+                "sets": 3
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 255,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 96,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 306,
+                "sets": 5
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 269,
+                "sets": 3
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 214,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 148,
+                "sets": 3
+            },
+            {
+                "name": "Bench Dips",
+                "reps": "7",
+                "wt": 93,
+                "sets": 4
+            }
+        ],
+        "duration": "1:00:47"
+    },
+    {
+        "date": "2013-08-15",
+        "exercises": [
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 281,
+                "sets": 4
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 296,
+                "sets": 5
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 308,
+                "sets": 4
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 239,
+                "sets": 3
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 97,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 223,
+                "sets": 4
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 118,
+                "sets": 2
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 226,
+                "sets": 4
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 51,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bent-over Row",
+                "reps": "7",
+                "wt": 64,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 31,
+                "sets": 3
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 345,
+                "sets": 3
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 333,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 71,
+                "sets": 5
+            }
+        ],
+        "duration": "1:16:17"
+    },
+    {
+        "date": "2013-08-16",
+        "exercises": [
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 135,
+                "sets": 5
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 283,
+                "sets": 2
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 74,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 80,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Squats",
+                "reps": "7",
+                "wt": 172,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 98,
+                "sets": 2
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 189,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 301,
+                "sets": 4
+            },
+            {
+                "name": "Bench Dips",
+                "reps": "7",
+                "wt": 263,
+                "sets": 5
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 124,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 199,
+                "sets": 3
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 316,
+                "sets": 2
+            },
+            {
+                "name": "Machine Pulldown",
+                "reps": "7",
+                "wt": 287,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 91,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 128,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 221,
+                "sets": 2
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 29,
+                "sets": 2
+            },
+            {
+                "name": "Machine Shoulder Press",
+                "reps": "7",
+                "wt": 98,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 292,
+                "sets": 5
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 248,
+                "sets": 4
+            }
+        ],
+        "duration": "1:00:02"
+    },
+    {
+        "date": "2013-08-17",
+        "exercises": [
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 95,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 316,
+                "sets": 3
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 183,
+                "sets": 5
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 102,
+                "sets": 2
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 120,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bent-over Row",
+                "reps": "7",
+                "wt": 195,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 33,
+                "sets": 3
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 46,
+                "sets": 4
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 130,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 66,
+                "sets": 4
+            }
+        ],
+        "duration": "1:35:36"
+    },
+    {
+        "date": "2013-08-18",
+        "exercises": [
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 29,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 346,
+                "sets": 2
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 253,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Squats",
+                "reps": "7",
+                "wt": 120,
+                "sets": 5
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 276,
+                "sets": 4
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 113,
+                "sets": 5
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 176,
+                "sets": 3
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 239,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 266,
+                "sets": 4
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 129,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 144,
+                "sets": 4
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 39,
+                "sets": 3
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 315,
+                "sets": 4
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 347,
+                "sets": 2
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 97,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Bent-over Row",
+                "reps": "7",
+                "wt": 316,
+                "sets": 2
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 198,
+                "sets": 4
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 95,
+                "sets": 4
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 76,
+                "sets": 5
+            }
+        ],
+        "duration": "1:33:58"
+    },
+    {
+        "date": "2013-08-19",
+        "exercises": [
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 251,
+                "sets": 5
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 52,
+                "sets": 5
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 262,
+                "sets": 4
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 244,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 44,
+                "sets": 4
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 45,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 93,
+                "sets": 5
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 119,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 308,
+                "sets": 3
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 78,
+                "sets": 3
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 342,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 324,
+                "sets": 3
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 345,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 116,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 109,
+                "sets": 3
+            },
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 258,
+                "sets": 5
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 131,
+                "sets": 2
+            },
+            {
+                "name": "Machine Shoulder Press",
+                "reps": "7",
+                "wt": 335,
+                "sets": 4
+            }
+        ],
+        "duration": "1:16:15"
+    },
+    {
+        "date": "2013-08-20",
+        "exercises": [
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 124,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 338,
+                "sets": 5
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 67,
+                "sets": 5
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 24,
+                "sets": 4
+            },
+            {
+                "name": "Smith Machine Hack Squat",
+                "reps": "7",
+                "wt": 320,
+                "sets": 3
+            },
+            {
+                "name": "Machine Tricep Press",
+                "reps": "7",
+                "wt": 51,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bent-over Row",
+                "reps": "7",
+                "wt": 242,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 215,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 205,
+                "sets": 5
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 295,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 144,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 235,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 93,
+                "sets": 4
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 93,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 138,
+                "sets": 5
+            }
+        ],
+        "duration": "1:10:53"
+    },
+    {
+        "date": "2013-08-21",
+        "exercises": [
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 106,
+                "sets": 5
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 206,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 258,
+                "sets": 5
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 83,
+                "sets": 3
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 343,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Side Lat Raise",
+                "reps": "7",
+                "wt": 143,
+                "sets": 5
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 101,
+                "sets": 2
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 327,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 345,
+                "sets": 5
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 316,
+                "sets": 2
+            },
+            {
+                "name": "Barbell Military Press",
+                "reps": "7",
+                "wt": 107,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 71,
+                "sets": 2
+            }
+        ],
+        "duration": "1:19:32"
+    },
+    {
+        "date": "2013-08-22",
+        "exercises": [
+            {
+                "name": "Machine Shoulder Press",
+                "reps": "7",
+                "wt": 202,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 209,
+                "sets": 2
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 318,
+                "sets": 2
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 20,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 332,
+                "sets": 4
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 169,
+                "sets": 4
+            },
+            {
+                "name": "One-arm Dumbbell Row",
+                "reps": "7",
+                "wt": 38,
+                "sets": 3
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 272,
+                "sets": 2
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 59,
+                "sets": 4
+            },
+            {
+                "name": "Inclined Plate Twist",
+                "reps": "7",
+                "wt": 122,
+                "sets": 3
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 155,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 327,
+                "sets": 3
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 213,
+                "sets": 5
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 207,
+                "sets": 3
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 278,
+                "sets": 4
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 207,
+                "sets": 5
+            }
+        ],
+        "duration": "1:14:07"
+    },
+    {
+        "date": "2013-08-23",
+        "exercises": [
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 95,
+                "sets": 4
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 214,
+                "sets": 4
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 335,
+                "sets": 4
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 105,
+                "sets": 5
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 251,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 271,
+                "sets": 5
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 198,
+                "sets": 5
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 272,
+                "sets": 4
+            },
+            {
+                "name": "Smith Machine Bent-over Row",
+                "reps": "7",
+                "wt": 151,
+                "sets": 4
+            },
+            {
+                "name": "One-arm Dumbbell Row",
+                "reps": "7",
+                "wt": 257,
+                "sets": 4
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 245,
+                "sets": 5
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 203,
+                "sets": 2
+            },
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 207,
+                "sets": 3
+            },
+            {
+                "name": "Reverse Cable Curls",
+                "reps": "7",
+                "wt": 220,
+                "sets": 4
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 263,
+                "sets": 3
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 133,
+                "sets": 5
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 216,
+                "sets": 4
+            }
+        ],
+        "duration": "1:47:09"
+    },
+    {
+        "date": "2013-08-24",
+        "exercises": [
+            {
+                "name": "Bench Dips",
+                "reps": "7",
+                "wt": 175,
+                "sets": 3
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 300,
+                "sets": 5
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 260,
+                "sets": 3
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 42,
+                "sets": 3
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 148,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 324,
+                "sets": 4
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 147,
+                "sets": 4
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 338,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 16,
+                "sets": 2
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 69,
+                "sets": 2
+            },
+            {
+                "name": "Straight-arm Cable Pulldown",
+                "reps": "7",
+                "wt": 214,
+                "sets": 2
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 336,
+                "sets": 5
+            },
+            {
+                "name": "Elevated Row to Neck",
+                "reps": "7",
+                "wt": 230,
+                "sets": 4
+            }
+        ],
+        "duration": "1:07:29"
+    },
+    {
+        "date": "2013-08-25",
+        "exercises": [
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 249,
+                "sets": 5
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 345,
+                "sets": 3
+            },
+            {
+                "name": "Rear-delt Cable Row",
+                "reps": "7",
+                "wt": 324,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 217,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 171,
+                "sets": 3
+            },
+            {
+                "name": "Bench Dips",
+                "reps": "7",
+                "wt": 325,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 143,
+                "sets": 3
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 172,
+                "sets": 3
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 51,
+                "sets": 2
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 194,
+                "sets": 3
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 73,
+                "sets": 2
+            },
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 310,
+                "sets": 4
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 65,
+                "sets": 3
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 17,
+                "sets": 5
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 65,
+                "sets": 4
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 218,
+                "sets": 2
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 231,
+                "sets": 5
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 29,
+                "sets": 4
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 184,
+                "sets": 2
+            }
+        ],
+        "duration": "1:35:32"
+    },
+    {
+        "date": "2013-08-26",
+        "exercises": [
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 116,
+                "sets": 5
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 259,
+                "sets": 3
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 47,
+                "sets": 2
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 76,
+                "sets": 4
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 86,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 98,
+                "sets": 4
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 319,
+                "sets": 2
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 344,
+                "sets": 5
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 223,
+                "sets": 4
+            },
+            {
+                "name": "Barbell Squats",
+                "reps": "7",
+                "wt": 334,
+                "sets": 3
+            },
+            {
+                "name": "Elevated Cable Row",
+                "reps": "7",
+                "wt": 111,
+                "sets": 3
+            },
+            {
+                "name": "Upright Cable Row",
+                "reps": "7",
+                "wt": 114,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 246,
+                "sets": 5
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 337,
+                "sets": 4
+            },
+            {
+                "name": "Machine Row",
+                "reps": "7",
+                "wt": 161,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 57,
+                "sets": 5
+            }
+        ],
+        "duration": "1:51:10"
+    },
+    {
+        "date": "2013-08-27",
+        "exercises": [
+            {
+                "name": "Inclined Curl Ups",
+                "reps": "7",
+                "wt": 132,
+                "sets": 2
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 77,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Curls",
+                "reps": "7",
+                "wt": 246,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 119,
+                "sets": 5
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 337,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 101,
+                "sets": 5
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 286,
+                "sets": 5
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 226,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Front Raise",
+                "reps": "7",
+                "wt": 252,
+                "sets": 5
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 210,
+                "sets": 2
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 349,
+                "sets": 3
+            }
+        ],
+        "duration": "1:07:45"
+    },
+    {
+        "date": "2013-08-28",
+        "exercises": [
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 187,
+                "sets": 3
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 334,
+                "sets": 4
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 184,
+                "sets": 4
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 136,
+                "sets": 2
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 289,
+                "sets": 4
+            },
+            {
+                "name": "Romanian Deadlift",
+                "reps": "7",
+                "wt": 66,
+                "sets": 4
+            },
+            {
+                "name": "One-arm Dumbbell Row",
+                "reps": "7",
+                "wt": 322,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Side Lat Raise",
+                "reps": "7",
+                "wt": 343,
+                "sets": 5
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 198,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Flys",
+                "reps": "7",
+                "wt": 158,
+                "sets": 3
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 80,
+                "sets": 3
+            },
+            {
+                "name": "Calf Press on Leg Machine",
+                "reps": "7",
+                "wt": 119,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 269,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Lunges",
+                "reps": "7",
+                "wt": 277,
+                "sets": 5
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 224,
+                "sets": 4
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 209,
+                "sets": 2
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 64,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Bench Press",
+                "reps": "7",
+                "wt": 43,
+                "sets": 2
+            }
+        ],
+        "duration": "1:27:58"
+    },
+    {
+        "date": "2013-08-29",
+        "exercises": [
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 235,
+                "sets": 3
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 160,
+                "sets": 2
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 275,
+                "sets": 2
+            },
+            {
+                "name": "Leg Press",
+                "reps": "7",
+                "wt": 34,
+                "sets": 4
+            },
+            {
+                "name": "Wide-grip Cable Pulldown",
+                "reps": "7",
+                "wt": 318,
+                "sets": 2
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 312,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Squats",
+                "reps": "7",
+                "wt": 207,
+                "sets": 3
+            },
+            {
+                "name": "Preacher Curl",
+                "reps": "7",
+                "wt": 203,
+                "sets": 3
+            },
+            {
+                "name": "Machine Leg Extensions",
+                "reps": "7",
+                "wt": 105,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Shoulder Press",
+                "reps": "7",
+                "wt": 338,
+                "sets": 2
+            },
+            {
+                "name": "Machine Reverse Flys",
+                "reps": "7",
+                "wt": 167,
+                "sets": 5
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 200,
+                "sets": 2
+            }
+        ],
+        "duration": "1:53:10"
+    },
+    {
+        "date": "2013-08-30",
+        "exercises": [
+            {
+                "name": "Bench Press",
+                "reps": "7",
+                "wt": 339,
+                "sets": 4
+            },
+            {
+                "name": "Dumbbell Skull Crusher",
+                "reps": "7",
+                "wt": 119,
+                "sets": 2
+            },
+            {
+                "name": "Dumbbell Reverse Flys",
+                "reps": "7",
+                "wt": 288,
+                "sets": 5
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 350,
+                "sets": 3
+            },
+            {
+                "name": "Leg Raise on Parallel Bars",
+                "reps": "7",
+                "wt": 83,
+                "sets": 4
+            },
+            {
+                "name": "Seated Leg Press",
+                "reps": "7",
+                "wt": 151,
+                "sets": 3
+            },
+            {
+                "name": "Push-ups",
+                "reps": "7",
+                "wt": 31,
+                "sets": 2
+            },
+            {
+                "name": "Reverse Cable Pushdown",
+                "reps": "7",
+                "wt": 312,
+                "sets": 4
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 32,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Bent-over Row",
+                "reps": "7",
+                "wt": 98,
+                "sets": 3
+            },
+            {
+                "name": "Smith Machine Squats",
+                "reps": "7",
+                "wt": 20,
+                "sets": 3
+            },
+            {
+                "name": "Machine Shoulder Press",
+                "reps": "7",
+                "wt": 184,
+                "sets": 2
+            },
+            {
+                "name": "Calf Raises",
+                "reps": "7",
+                "wt": 276,
+                "sets": 5
+            },
+            {
+                "name": "Barbell 21s Curls",
+                "reps": "7",
+                "wt": 196,
+                "sets": 3
+            },
+            {
+                "name": "Assisted Dips",
+                "reps": "7",
+                "wt": 144,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 297,
+                "sets": 5
+            },
+            {
+                "name": "Inclined Dumbbell Press",
+                "reps": "7",
+                "wt": 222,
+                "sets": 4
+            },
+            {
+                "name": "Machine Chest Press",
+                "reps": "7",
+                "wt": 315,
+                "sets": 5
+            },
+            {
+                "name": "Smith Machine Bench Press",
+                "reps": "7",
+                "wt": 266,
+                "sets": 5
+            },
+            {
+                "name": "Shrugs",
+                "reps": "7",
+                "wt": 51,
+                "sets": 2
+            }
+        ],
+        "duration": "1:50:33"
+    }
+]
