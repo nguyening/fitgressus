@@ -1,49 +1,38 @@
 <!doctype html>
 <html lang="en" ng-app="fitgressus">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, user-scalable=no">
-  <title>Fitgressus</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/app.css"/>
-  <style type="text/css">
-  .container-narrow {
-    margin: 0 auto;
-    max-width: 700px;
-  }
-  .row-fluid {
-    margin-top: 10px;
-  }
-  .current-exercise-weight-control h3{
-    margin: 0;
-  }
-  .current-exercise-set-control .current-exercise-set-count h1 {
-    margin: 0;
-  }
-  </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-title" content="Fitgressus">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title>Fitgressus</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="masthead">
-      <h3 class="muted">Fitgressus</h3>
-    </div>
-    <hr />
-    <div ng-view class="row-fluid"></div>
+	<div class="container-fluid">
+		<div class="masthead">
+			<h3 class="muted">Fitgressus</h3>
+		</div>
+		<hr />
+		<div ng-view class="row-fluid"></div>
 
-  </div>
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-  -->
+	</div>
 
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/cookiesModule.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/directives.js"></script>
-  <!--
-  <script src="lib/jquery/jquery-1.10.2.js"></script>
-  <script src="js/services.js"></script>
-  <script src="js/filters.js"></script>
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+-->
+<script src="lib/angular/angular.js"></script>
+<script src="lib/cookiesModule.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+<!--
+<script src="lib/jquery/jquery-1.10.2.js"></script>
+<script src="js/services.js"></script>
+<script src="js/filters.js"></script>
 -->
 </body>
 </html>

@@ -1,30 +1,27 @@
-/* app css stylesheet */
-
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+@media(min-width: 800px) {
+	.container-fluid {
+		margin: 0 auto;
+		max-width: 700px;
+	}
 }
 
-.menu:before {
-  content: "[";
+/* _workout */
+#exercise-buttons {
+	margin: 10px 0;
+}
+#exercise-buttons .row-fluid {
+	margin: 10px 0;
 }
 
-.menu:after {
-  content: "]";
+/* _exercise */
+@media(max-width: 480px) {
+	.current-exercise-weight-control input {
+		max-width: 50px;
+	}
 }
-
-.menu > li {
-  display: inline;
+.current-exercise-weight-control h3{
+	margin: 0;
 }
-
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+.current-exercise-set-control .current-exercise-set-count h1 {
+	margin: 0;
 }

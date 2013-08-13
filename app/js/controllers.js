@@ -1,7 +1,6 @@
 'use strict';
 
 /* Controllers */
-
 angular.module('fitgressus.controllers', []).
 	controller('StartWorkoutCtrl', ['$scope', '$location', '$rootScope', 'Cookies', function($scope, $location, $rootScope, Cookies) {
 		$scope.date = new Date().toJSON().slice(0, 10);   //default date to today
