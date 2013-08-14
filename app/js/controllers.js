@@ -2,18 +2,26 @@
 
 /* Controllers */
 angular.module('fitgressus.controllers', []).
-	controller('StartWorkoutCtrl', ['$scope', '$location', '$rootScope', 'webStorage', '$http', function($scope, $location, $rootScope, webStorage, $http) {
+	controller('StartWorkoutCtrl', ['$scope', '$location', 'webStorage', '$http', function($scope, $location, webStorage, $http) {
+		/* START_STATE */
+		var lastPhase = webStorage.get('ls_lastPhase');
+		if(lastPhase != '/index')
+			$location.path(lastPhase);
+		else 
+			webStorage.add('ls_lastPhase', '/index');
+		/* END_STATE */
+
 		$scope.date = new Date().toJSON().slice(0, 10);   //default date to today
 		$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
-
+		
 		$scope.beginWorkout = function () {
-			$rootScope.workout = {  // TODO: turn into service
+			webStorage.add('ls_workout', JSON.stringify({  
 				date: $scope.date,
 				exercises: []
-			  };
+			}));
 
-			$rootScope.startTime = new Date().getTime() / 1000;
-
+			webStorage.add('ls_startTime', new Date().getTime() / 1000);
+			webStorage.add('ls_lastPhase', '/workout');
 			$location.path('/workout');
 		};
 
@@ -34,34 +42,44 @@ angular.module('fitgressus.controllers', []).
 		// };
 
 	}]).
-	controller('WorkoutCtrl', ['$scope', '$location', '$http', '$rootScope', function($scope, $location, $http, $rootScope) {
-		if($rootScope.workout == undefined)
+	controller('WorkoutCtrl', ['$scope', '$location', '$http', 'webStorage', function($scope, $location, $http, webStorage) {
+		/* START_STATE */
+		if(webStorage.get('ls_lastPhase') != '/workout') {
 			$location.path('/index');
+		}
+		var last_sWT = webStorage.get('ls_selectedWorkoutType');
+		if(last_sWT)
+			$scope.selectedWorkoutType = last_sWT;
+		/* END_STATE */
 
 		$scope.startExercise = function (exerciseName) {
-			$rootScope.selectedWorkoutType = $scope.selectedWorkoutType;
-			$rootScope.currentExercise = exerciseName;
+			webStorage.add('ls_selectedWorkoutType', $scope.selectedWorkoutType);
+			webStorage.add('ls_currentExercise', exerciseName);
+
+			webStorage.add('ls_lastPhase', '/exercise');
 			$location.path('/exercise');  
 		};
 
 		$scope.finishWorkout = function () {
+			webStorage.add('ls_lastPhase', '/finish');
 			$location.path('/finish');	
 		};
 
 		$http.get('data/workouts.json').success(function (data) {
 			$scope.workoutTypes = data;
-			if($rootScope.selectedWorkoutType != undefined)
-				$scope.selectedWorkoutType = $rootScope.selectedWorkoutType;
-			else
+			if($scope.selectedWorkoutType == undefined)
 				$scope.selectedWorkoutType = 0;
 		});
 	}]).
-	controller('ExerciseCtrl', ['$scope', '$location', '$rootScope', function($scope, $location, $rootScope) {
-		if($rootScope.workout == undefined || $rootScope.currentExercise == undefined)
+	controller('ExerciseCtrl', ['$scope', '$location', 'webStorage', function($scope, $location, webStorage) {
+		/* START_STATE */
+		if(webStorage.get('ls_lastPhase') != '/exercise') {
 			$location.path('/index');
+		}
+		/* END_STATE */
 
 		$scope.currentExercise = {
-			name : $rootScope.currentExercise,
+			name : webStorage.get('ls_currentExercise'),
 			reps : 7,
 			wt: 0,
 			sets: 0
@@ -79,7 +97,7 @@ angular.module('fitgressus.controllers', []).
 		};
 
 		$scope.cancelExercise = function () {
-			$rootScope.currentExercise = null;
+			webStorage.add('ls_lastPhase', '/workout');
 			$location.path('/workout');
 		};
 
@@ -87,8 +105,11 @@ angular.module('fitgressus.controllers', []).
 			if($scope.currentExercise.sets)
 				$scope.droppedExercises.push(cloneObject($scope.currentExercise));
 
-			$rootScope.workout.exercises = $rootScope.workout.exercises.concat($scope.droppedExercises);
-			$rootScope.currentExercise = null;
+			var workout = JSON.parse(webStorage.get('ls_workout'));
+			workout.exercises = workout.exercises.concat($scope.droppedExercises);
+			webStorage.add('ls_workout', JSON.stringify(workout));
+
+			webStorage.add('ls_lastPhase', '/workout');
 			$location.path('/workout');
 		};
 
@@ -98,28 +119,35 @@ angular.module('fitgressus.controllers', []).
 			$scope.currentExercise.sets = 0;
 		};
 	}]).
-	controller('EndCtrl', ['$scope', '$location', '$rootScope', 'webStorage', function($scope, $location, $rootScope, webStorage) {
-		if($rootScope.workout == undefined)
+	controller('EndCtrl', ['$scope', '$location', 'webStorage', function($scope, $location, webStorage) {
+		/* START_STATE */
+		if(webStorage.get('ls_lastPhase') != '/finish') {
 			$location.path('/index');
+		}
+		/* END_STATE */
 
-		var workoutTimeSecs = ((new Date().getTime() / 1000) - $rootScope.startTime);
+		var workoutTimeSecs = ((new Date().getTime() / 1000) - webStorage.get('ls_startTime'));
 		var hours = parseInt(workoutTimeSecs / 3600) % 24;
 		var minutes = parseInt(workoutTimeSecs / 60) % 60;
 		var seconds = Math.round(workoutTimeSecs % 60);
 
 		$scope.duration = (hours < 10 ? "0" + hours : hours) + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds  < 10 ? "0" + seconds : seconds);
-		$scope.exercises = $rootScope.workout.exercises;
+		
+		var workout = JSON.parse(webStorage.get('ls_workout'));
+		$scope.exercises = workout.exercises;
 
 		$scope.removeExercise = function (exerciseIdx) {
 			$scope.exercises.splice(exerciseIdx, 1);
 		};
 
 		$scope.done = function () {
-			$rootScope.workout.duration = $scope.duration;
+			workout.duration = $scope.duration;
 
 			var workouts = JSON.parse(webStorage.get('workouts')) || [];
-			workouts.unshift($rootScope.workout);
+			workouts.unshift(workout);
 			webStorage.add('workouts', JSON.stringify(workouts), Infinity);
+
+			webStorage.add('ls_lastPhase', '/index');
 			$location.path('/index');
 		};
 	}]).
