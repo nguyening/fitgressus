@@ -9,5 +9,6 @@ angular.module('fitgressus', ['webStorageModule', 'fitgressus.controllers', 'fit
 		$routeProvider.when('/exercise', {templateUrl: 'partials/_exercise.html', controller: 'ExerciseCtrl'});
 		$routeProvider.when('/finish', {templateUrl: 'partials/_end.html', controller: 'EndCtrl'});
 		$routeProvider.when('/review/:idx', {templateUrl: 'partials/_reviewWorkout.html', controller: 'ReviewWorkoutCtrl'});
+		$routeProvider.when('/progress', {templateUrl: 'partials/_progress.html', controller: 'ProgressCtrl'});
 		$routeProvider.otherwise({redirectTo: '/index'});
 	}]);

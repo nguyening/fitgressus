@@ -130,4 +130,9 @@ angular.module('fitgressus.controllers', []).
 			$location.path('/index');
 		
 		$scope.workout = workouts[idx];
+	}]).
+	controller('ProgressCtrl', ['$scope', 'webStorage', function ($scope, webStorage) {
+		$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
+		
+
 	}]);
