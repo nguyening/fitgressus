@@ -11,4 +11,28 @@ angular.module('fitgressus', ['webStorageModule', 'fitgressus.controllers', 'fit
 		$routeProvider.when('/review/:idx', {templateUrl: 'partials/_reviewWorkout.html', controller: 'ReviewWorkoutCtrl'});
 		$routeProvider.when('/progress', {templateUrl: 'partials/_progress.html', controller: 'ProgressCtrl'});
 		$routeProvider.otherwise({redirectTo: '/index'});
+	}]).
+	run(['$rootScope', function ($rootScope) {
+		$rootScope.groups = [
+			{
+				key	:	"abso",
+				label : "Abs",
+			},
+			{
+				key	:	"bkbi",
+				label : "Back & Bis",
+			},
+			{
+				key	:	"shld",
+				label : "Shoulders",
+			},
+			{
+				key	:	"chtr",
+				label : "Chest & Tris",
+			},
+			{
+				key	:	"legs",
+				label : "Legs",
+			},
+		];
 	}]);

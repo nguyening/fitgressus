@@ -4,7 +4,7 @@
 angular.module('fitgressus.controllers', []).
 	controller('StartWorkoutCtrl', ['$scope', '$location', 'webStorage', '$http', function($scope, $location, webStorage, $http) {
 		/* START_STATE */
-		var lastPhase = webStorage.get('ls_lastPhase');
+		var lastPhase = webStorage.get('ls_lastPhase') || '/index';
 		if(lastPhase != '/index')
 			$location.path(lastPhase);
 		else 
