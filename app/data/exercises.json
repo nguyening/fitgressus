@@ -1,0 +1,328 @@
+[
+	{
+		"label"	:	"Leg Raise on Parallel Bars",
+		"type"	:	"other",
+		"group"	:	"abso",
+		"options"	:	{
+			"reps"	:	15
+		}
+	},
+	{
+		"label"	:	"Inclined Curl Ups",
+		"type"	:	"other",
+		"group"	:	"abso",
+		"options"	:	{
+			"reps"	:	20
+		}
+	},
+	{
+		"label"	:	"Inclined Russian Twist",
+		"type"	:	"other",
+		"group"	:	"abso",
+		"options"	:	{
+			"reps"	:	20
+		}
+	},
+	{
+		"label"	:	"Seated Russian Twist",
+		"type"	:	"other",
+		"group"	:	"abso",
+		"options"	:	{
+			"reps"	:	20
+		}
+	},
+	{
+		"label"	:	"Standing Oblique Crunch",
+		"type"	:	"other",
+		"group"	:	"abso",
+		"options"	:	{
+			"reps"	:	10
+		}
+	},
+	{
+		"label"	:	"Dragon Flags",
+		"type"	:	"other",
+		"group"	:	"abso",
+		"options"	:	{
+			"reps"	:	5
+		}
+	},
+	{
+		"label"	:	"Machine Pulldown",
+		"type"	:	"machn",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Machine Row",
+		"type"	:	"machn",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Smith Machine Bent-over Row",
+		"type"	:	"machn",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Machine Arm Curls",
+		"type"	:	"machn",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Reverse Cable Curls",
+		"type"	:	"cable",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Wide-grip Cable Pulldown",
+		"type"	:	"cable",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Straight-arm Cable Pulldown",
+		"type"	:	"cable",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Elevated Cable Row",
+		"type"	:	"cable",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Dumbbell Curls",
+		"type"	:	"xbell",
+		"group"	:	"bkbi",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"One-arm Dumbbell Row",
+		"type"	:	"xbell",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Barbell 21s Curls",
+		"type"	:	"xbell",
+		"group"	:	"bkbi",
+		"options"	:	{
+			"reps"	:	1,
+			"calculate_wt"	:	"21 * wt"
+		}
+	},
+	{
+		"label"	:	"Barbell Bent-over Row",
+		"type"	:	"xbell",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Preacher Curl",
+		"type"	:	"xbell",
+		"group"	:	"bkbi"
+	},
+	{
+		"label"	:	"Machine Reverse Flys",
+		"type"	:	"machn",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Machine Shoulder Press",
+		"type"	:	"machn",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Rear-delt Cable Row",
+		"type"	:	"cable",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Upright Cable Row",
+		"type"	:	"cable",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Elevated Row to Neck",
+		"type"	:	"cable",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Shrugs",
+		"type"	:	"xbell",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Dumbbell Front Raise",
+		"type"	:	"xbell",
+		"group"	:	"shld",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Dumbbell Reverse Flys",
+		"type"	:	"xbell",
+		"group"	:	"shld",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Dumbbell Side Lat Raise",
+		"type"	:	"xbell",
+		"group"	:	"shld",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Dumbbell Shoulder Press",
+		"type"	:	"xbell",
+		"group"	:	"shld",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Barbell Military Press",
+		"type"	:	"xbell",
+		"group"	:	"shld"
+	},
+	{
+		"label"	:	"Machine Tricep Press",
+		"type"	:	"machn",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Machine Arm Extensions",
+		"type"	:	"machn",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Machine Chest Press",
+		"type"	:	"machn",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Machine Flys",
+		"type"	:	"machn",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Smith Machine Bench Press",
+		"type"	:	"machn",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Assisted Dips",
+		"type"	:	"machn",
+		"group"	:	"chtr",
+		"options"	:	{
+			"calculate_wt"	: 0
+		}
+	},
+	{
+		"label"	:	"Reverse Cable Pushdown",
+		"type"	:	"cable",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Inclined Dumbbell Press",
+		"type"	:	"cable",
+		"group"	:	"chtr",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Dumbbell Flys",
+		"type"	:	"cable",
+		"group"	:	"chtr",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Dumbbell Skull Crusher",
+		"type"	:	"cable",
+		"group"	:	"chtr",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Bench Dips",
+		"type"	:	"other",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Bench Press",
+		"type"	:	"xbell",
+		"group"	:	"chtr"
+	},
+	{
+		"label"	:	"Inclined Bench Press",
+		"type"	:	"xbell",
+		"group"	:	"chtr"
+	},	
+	{
+		"label"	:	"Machine Leg Extensions",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Machine Leg Curls",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Seated Leg Press",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Calf Press on Leg Press",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Smith Machine Hack Squat",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Smith Machine Squats",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Calf Raises",
+		"type"	:	"other",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Linear Leg Press",
+		"type"	:	"machn",
+		"group"	:	"legs"
+	},
+	{
+		"label"	:	"Dumbbell Squats",
+		"type"	:	"xbell",
+		"group"	:	"legs",
+		"options"	:	{
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Dumbbell Lunges",
+		"type"	:	"xbell",
+		"group"	:	"legs",
+		"options"	:	{
+			"reps"	: 20,
+			"calculate_wt"	:	"2 * wt"
+		}
+	},
+	{
+		"label"	:	"Barbell Squats",
+		"type"	:	"xbell",
+		"group"	:	"legs"
+	}	
+]
