@@ -85,4 +85,17 @@ angular.module('fitgressus.services', ['webStorageModule']).
 				this.updatePrevWorkouts(workouts);
 			},
 		};
+	}]).
+	factory('exerciseService', ['$http', function ($http) {
+		var workoutTypes = null;
+	    var promise = $http.get('data/workouts.json').success(function (data) {
+			workoutTypes = data;
+		});
+
+	    return {
+	    	promise	:	promise,
+	    	getExercises	:	function () {
+	    		return workoutTypes;
+	    	}
+	    };
 	}]);

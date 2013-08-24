@@ -32,10 +32,10 @@ angular.module('fitgressus.controllers', []).
 		// };
 
 	}]).
-	controller('WorkoutCtrl', ['$scope', '$http', 'workoutStateService', function($scope, $http, workoutStateService) {
+	controller('WorkoutCtrl', ['$scope', 'workoutStateService', 'exerciseService', function($scope, workoutStateService, exerciseService) {
 		workoutStateService.verifyPage('/workout');
+		$scope.workoutTypes = exerciseService.getExercises();
 		$scope.selectedWorkoutType = workoutStateService.get('selectedWorkoutType') || 0;
-		
 
 		$scope.startExercise = function (exerciseName) {
 			workoutStateService.transferPage({
@@ -47,10 +47,6 @@ angular.module('fitgressus.controllers', []).
 		$scope.finishWorkout = function () {
 			workoutStateService.transferPage(null, '/finish')
 		};
-
-		$http.get('data/workouts.json').success(function (data) {
-			$scope.workoutTypes = data;
-		});
 	}]).
 	controller('ExerciseCtrl', ['$scope', 'workoutStateService', function($scope, workoutStateService) {
 		workoutStateService.verifyPage('/exercise');
@@ -116,9 +112,9 @@ angular.module('fitgressus.controllers', []).
 			$location.path('/index');
 		
 		$scope.workout = workouts[idx];
-	}]).
-	controller('ProgressCtrl', ['$scope', 'webStorage', function ($scope, webStorage) {
-		$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
+	}]);//.
+	// controller('ProgressCtrl', ['$scope', 'webStorage', function ($scope, webStorage) {
+	// 	$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
 		
 
-	}]);
+	// }]);
