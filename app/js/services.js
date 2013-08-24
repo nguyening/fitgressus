@@ -4,14 +4,14 @@
 /* Services */
 angular.module('fitgressus.services', ['webStorageModule']).
 	value('version', '0.1').
-	factory('workoutState', ['webStorage', '$location', function (webStorage, $location) {
+	factory('workoutStateService', ['webStorage', '$location', function (webStorage, $location) {
 		// when service is instantiated, pull from web storage
 		var	globalState = {
 				lastPhase : webStorage.get('ls_lastPhase'),
 				currentExercise : webStorage.get('ls_currentExercise'),
 				selectedWorkoutType : webStorage.get('ls_selectedWorkoutType'),
 				startTime : webStorage.get('ls_startTime'),
-				workout : webStorage.get('ls_workout'),
+				workout : JSON.parse(webStorage.get('ls_workout') || "{}"),
 			};
 
 		return {
