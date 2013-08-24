@@ -2,7 +2,7 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('fitgressus', ['webStorageModule', 'fitgressus.controllers', 'fitgressus.directives']).
+angular.module('fitgressus', ['webStorageModule', 'fitgressus.controllers', 'fitgressus.directives', 'fitgressus.services']).
 	config(['$routeProvider', function($routeProvider) {
 		$routeProvider.when('/index', {templateUrl: 'partials/_startWorkout.html', controller: 'StartWorkoutCtrl'});
 		$routeProvider.when('/workout', {templateUrl: 'partials/_workout.html', controller: 'WorkoutCtrl'});
@@ -12,7 +12,7 @@ angular.module('fitgressus', ['webStorageModule', 'fitgressus.controllers', 'fit
 		$routeProvider.when('/progress', {templateUrl: 'partials/_progress.html', controller: 'ProgressCtrl'});
 		$routeProvider.otherwise({redirectTo: '/index'});
 	}]).
-	run(['$rootScope', function ($rootScope) {
+	run(['$rootScope', '$http', function ($rootScope, $http) {
 		$rootScope.groups = [
 			{
 				key	:	"abso",
@@ -35,4 +35,6 @@ angular.module('fitgressus', ['webStorageModule', 'fitgressus.controllers', 'fit
 				label : "Legs",
 			},
 		];
+
+
 	}]);

@@ -2,36 +2,26 @@
 
 /* Controllers */
 angular.module('fitgressus.controllers', []).
-	controller('StartWorkoutCtrl', ['$scope', '$location', 'webStorage', '$http', function($scope, $location, webStorage, $http) {
-		/* START_STATE */
-		var lastPhase = webStorage.get('ls_lastPhase') || '/index';
-		if(lastPhase != '/index')
-			$location.path(lastPhase);
-		else 
-			webStorage.add('ls_lastPhase', '/index');
-		/* END_STATE */
+	controller('StartWorkoutCtrl', ['$scope', '$http', 'workoutState', function($scope, $http, workoutState) {
+		workoutState.verifyPage('/index');
 
 		$scope.date = new Date().toJSON().slice(0, 10);   //default date to today
-		$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
+		$scope.previousWorkouts = workoutState.getPrevWorkouts();
 		
 		$scope.beginWorkout = function () {
-			webStorage.add('ls_workout', JSON.stringify({  
-				date: $scope.date,
-				exercises: []
-			}));
-
-			webStorage.add('ls_startTime', new Date().getTime() / 1000);
-			webStorage.add('ls_lastPhase', '/workout');
-			$location.path('/workout');
+			workoutState.initializeWorkout($scope.date);
+			workoutState.transferPage({
+				startTime	:	new Date().getTime() / 1000,
+			}, '/workout');
 		};
 
 		$scope.removeWorkout = function (workoutIdx) {
 			$scope.previousWorkouts.splice(workoutIdx, 1);
-			webStorage.add('workouts', JSON.stringify($scope.previousWorkouts), Infinity);
+			workoutState.updatePrevWorkouts($scope.previousWorkouts);
 		};
 
 		$scope.reviewWorkout = function (workoutIdx) {
-			$location.path('/review/'+workoutIdx);
+			workoutState.transferPage(null, '/review/'+workoutIdx);
 		};
 
 		// $scope.addDummyData = function () {
@@ -42,44 +32,31 @@ angular.module('fitgressus.controllers', []).
 		// };
 
 	}]).
-	controller('WorkoutCtrl', ['$scope', '$location', '$http', 'webStorage', function($scope, $location, $http, webStorage) {
-		/* START_STATE */
-		if(webStorage.get('ls_lastPhase') != '/workout') {
-			$location.path('/index');
-		}
-		var last_sWT = webStorage.get('ls_selectedWorkoutType');
-		if(last_sWT)
-			$scope.selectedWorkoutType = last_sWT;
-		/* END_STATE */
+	controller('WorkoutCtrl', ['$scope', '$http', 'workoutState', function($scope, $http, workoutState) {
+		workoutState.verifyPage('/workout');
+		$scope.selectedWorkoutType = workoutState.get('selectedWorkoutType') || 0;
+		
 
 		$scope.startExercise = function (exerciseName) {
-			webStorage.add('ls_selectedWorkoutType', $scope.selectedWorkoutType);
-			webStorage.add('ls_currentExercise', exerciseName);
-
-			webStorage.add('ls_lastPhase', '/exercise');
-			$location.path('/exercise');  
+			workoutState.transferPage({
+				selectedWorkoutType	:	$scope.selectedWorkoutType,
+				currentExercise	:	exerciseName,
+			}, '/exercise');
 		};
 
 		$scope.finishWorkout = function () {
-			webStorage.add('ls_lastPhase', '/finish');
-			$location.path('/finish');	
+			workoutState.transferPage(null, '/finish')
 		};
 
 		$http.get('data/workouts.json').success(function (data) {
 			$scope.workoutTypes = data;
-			if($scope.selectedWorkoutType == undefined)
-				$scope.selectedWorkoutType = 0;
 		});
 	}]).
-	controller('ExerciseCtrl', ['$scope', '$location', 'webStorage', function($scope, $location, webStorage) {
-		/* START_STATE */
-		if(webStorage.get('ls_lastPhase') != '/exercise') {
-			$location.path('/index');
-		}
-		/* END_STATE */
+	controller('ExerciseCtrl', ['$scope', 'workoutState', function($scope, workoutState) {
+		workoutState.verifyPage('/exercise');
 
 		$scope.currentExercise = {
-			name : webStorage.get('ls_currentExercise'),
+			name : workoutState.get('currentExercise'),
 			reps : 7,
 			wt: 0,
 			sets: 0
@@ -87,53 +64,35 @@ angular.module('fitgressus.controllers', []).
 
 		$scope.droppedExercises = [];
 
-		var cloneObject = function (obj) {
-			var clone ={};
-			for( var key in obj ){
-				if(obj.hasOwnProperty(key)) //ensure not adding inherited props
-					clone[key]=obj[key];
-			}
-			return clone;
-		};
-
 		$scope.cancelExercise = function () {
-			webStorage.add('ls_lastPhase', '/workout');
-			$location.path('/workout');
+			workoutState.transferPage(null, '/workout');
 		};
 
 		$scope.addExercise = function () {
 			if($scope.currentExercise.sets)
-				$scope.droppedExercises.push(cloneObject($scope.currentExercise));
+				$scope.droppedExercises.push(angular.copy($scope.currentExercise));
 
-			var workout = JSON.parse(webStorage.get('ls_workout'));
-			workout.exercises = workout.exercises.concat($scope.droppedExercises);
-			webStorage.add('ls_workout', JSON.stringify(workout));
-
-			webStorage.add('ls_lastPhase', '/workout');
-			$location.path('/workout');
+			workoutState.addExercises($scope.droppedExercises);
+			workoutState.transferPage(null, '/workout');
 		};
 
 		$scope.dropWeight = function () {
-			$scope.droppedExercises.push(cloneObject($scope.currentExercise));
+			$scope.droppedExercises.push(angular.copy($scope.currentExercise));
 			$scope.currentExercise.wt = 0;
 			$scope.currentExercise.sets = 0;
 		};
 	}]).
-	controller('EndCtrl', ['$scope', '$location', 'webStorage', function($scope, $location, webStorage) {
-		/* START_STATE */
-		if(webStorage.get('ls_lastPhase') != '/finish') {
-			$location.path('/index');
-		}
-		/* END_STATE */
+	controller('EndCtrl', ['$scope', 'workoutState', function($scope, workoutState) {
+		workoutState.verifyPage('/finish');
 
-		var workoutTimeSecs = ((new Date().getTime() / 1000) - webStorage.get('ls_startTime'));
+		var workoutTimeSecs = ((new Date().getTime() / 1000) - workoutState.get('startTime'));
 		var hours = parseInt(workoutTimeSecs / 3600) % 24;
 		var minutes = parseInt(workoutTimeSecs / 60) % 60;
 		var seconds = Math.round(workoutTimeSecs % 60);
 
 		$scope.duration = (hours < 10 ? "0" + hours : hours) + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds  < 10 ? "0" + seconds : seconds);
 		
-		var workout = JSON.parse(webStorage.get('ls_workout'));
+		var workout = workoutState.get('workout');
 		$scope.exercises = workout.exercises;
 
 		$scope.removeExercise = function (exerciseIdx) {
@@ -142,17 +101,12 @@ angular.module('fitgressus.controllers', []).
 
 		$scope.done = function () {
 			workout.duration = $scope.duration;
-
-			var workouts = JSON.parse(webStorage.get('workouts')) || [];
-			workouts.unshift(workout);
-			webStorage.add('workouts', JSON.stringify(workouts), Infinity);
-
-			webStorage.add('ls_lastPhase', '/index');
-			$location.path('/index');
+			workoutState.addWorkout(workout);
+			workoutState.transferPage(null, '/index');
 		};
 	}]).
-	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'webStorage', '$location', function ($scope, $routeParams, webStorage, $location) {
-		var workouts = JSON.parse(webStorage.get('workouts'));
+	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'workoutState', function ($scope, $routeParams, workoutState) {
+		var workouts = workoutState.getPrevWorkouts();
 		var idx = $routeParams.idx;
 		if(workouts.length <= idx)
 			$location.path('/index');
