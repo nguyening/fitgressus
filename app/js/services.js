@@ -88,7 +88,7 @@ angular.module('fitgressus.services', ['webStorageModule']).
 	}]).
 	factory('exerciseService', ['$http', function ($http) {
 		var workoutTypes = null;
-	    var promise = $http.get('data/workouts.json').success(function (data) {
+	    var promise = $http.get('data/workouts.json', {cache: true}).success(function (data) {
 			workoutTypes = data;
 		});
 
