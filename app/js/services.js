@@ -8,8 +8,8 @@ angular.module('fitgressus.services', ['webStorageModule']).
 		// when service is instantiated, pull from web storage
 		var	globalState = {
 				lastPhase : webStorage.get('ls_lastPhase'),
-				currentExercise : webStorage.get('ls_currentExercise'),
-				selectedWorkoutType : webStorage.get('ls_selectedWorkoutType'),
+				currentExerciseId : webStorage.get('ls_currentExerciseId') || -1,
+				selectedMuscleGroup : webStorage.get('ls_selectedMuscleGroup'),
 				startTime : webStorage.get('ls_startTime'),
 				workout : JSON.parse(webStorage.get('ls_workout') || "{}"),
 			};
@@ -37,20 +37,20 @@ angular.module('fitgressus.services', ['webStorageModule']).
 			},
 			transferPage : function (passedState, lastPhase, callback) {
 				var state = angular.extend({
-					currentExercise	:	globalState.currentExercise,
-					selectedWorkoutType	:	globalState.selectedWorkoutType,
+					currentExerciseId	:	globalState.currentExerciseId,
+					selectedMuscleGroup	:	globalState.selectedMuscleGroup,
 					startTime	:	globalState.startTime,
 				}, passedState);
 
 				// back up to webStorage in case the user refreshes/crashes
 				webStorage.add('ls_lastPhase', lastPhase);
-				webStorage.add('ls_currentExercise', state.currentExercise);
-				webStorage.add('ls_selectedWorkoutType', state.selectedWorkoutType);
+				webStorage.add('ls_currentExerciseId', state.currentExerciseId);
+				webStorage.add('ls_selectedMuscleGroup', state.selectedMuscleGroup);
 				webStorage.add('ls_startTime', state.startTime);
 
 				globalState.lastPhase =  lastPhase;
-				globalState.currentExercise =  state.currentExercise;
-				globalState.selectedWorkoutType =  state.selectedWorkoutType;
+				globalState.currentExerciseId =  state.currentExerciseId;
+				globalState.selectedMuscleGroup =  state.selectedMuscleGroup;
 				globalState.startTime =  state.startTime;
 
 				this._redirect(globalState.lastPhase);
@@ -74,8 +74,17 @@ angular.module('fitgressus.services', ['webStorageModule']).
 				webStorage.add('workouts', JSON.stringify(workouts), Infinity);
 			},
 
-			addExercises : function (exercises) {
-				globalState.workout.exercises = globalState.workout.exercises.concat(exercises);
+			addExercises : function (exerciseId, exerciseSets, exerciseModel) {
+				var entry = {
+					"exerciseId" : exerciseId,
+					"setGroups" : exerciseSets,
+				};
+
+				if(exerciseId == -1) { //new exercise
+					entry.model = exerciseModel;
+				}
+
+				globalState.workout.exercises = globalState.workout.exercises.concat(entry);
 				webStorage.add('ls_workout', JSON.stringify(globalState.workout));
 			},
 
@@ -87,15 +96,15 @@ angular.module('fitgressus.services', ['webStorageModule']).
 		};
 	}]).
 	factory('exerciseService', ['$http', function ($http) {
-		var workoutTypes = null;
-	    var promise = $http.get('data/workouts.json', {cache: true}).success(function (data) {
-			workoutTypes = data;
+		var exercises = null;
+	    var promise = $http.get('data/exercises.json', {cache: true}).success(function (data) {
+			exercises = data;
 		});
 
 	    return {
 	    	promise	:	promise,
 	    	getExercises	:	function () {
-	    		return workoutTypes;
+	    		return exercises;
 	    	}
 	    };
 	}]);

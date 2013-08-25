@@ -1,13 +1,9 @@
 <div class="row-fluid">
-	<label for="workout-type-select">Workout Type: </label>
+	<label for="workout-type-select">Muscle Group: </label>
 	<select 
 		id="workout-type-select"
-		ng-model="selectedWorkoutType">
-		<option 
-			value="{{$index}}"
-			ng-repeat="workoutType in workoutTypes"
-			ng-selected="selectedWorkoutType == $index">{{workoutType.label}}</option>
-
+		ng-model="selectedMuscleGroup"
+		ng-options="muscleGroup.key as muscleGroup.label for muscleGroup in groups">
 	</select>
 </div>
 <div class="row-fluid">
@@ -16,15 +12,15 @@
 	</h4>
 </div>
 <div id="exercise-buttons">
-	<div class="row-fluid" ng-repeat="exercise in workoutTypes[selectedWorkoutType].exercises" >
+	<div class="row-fluid" ng-repeat="(id, exercise) in exercises | workoutTypeFilter:selectedMuscleGroup" >
 		<a 
 			class="btn span12"
-			ng-click="startExercise(exercise)">{{exercise}}</a>
+			ng-click="startExercise(id)">{{exercise.label}}</a>
 	</div>
 	<div class="row-fluid">
 		<a 
 			class="btn span12"
-			ng-click="startExercise('Unnamed')"><i class="icon-plus"></i></a>
+			ng-click="startExercise(-1)"><i class="icon-plus"></i></a>
 	</div>
 </div>
 

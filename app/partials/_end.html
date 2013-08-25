@@ -7,20 +7,25 @@
 	<table class="table table-striped table-bordered">
 		<thead>
 			<th>Exercise</th>
-			<th>Reps</th>
-			<th>Weight (lb.)</th>
-			<th>Sets</th>
 			<th></th>
 		</thead>
 		<tbody>
-			<tr ng-repeat="exercise in exercises">
-				<td>{{exercise.name}} </td>
-				<td>{{exercise.reps}}</td>
-				<td>{{exercise.wt}}</td>
-				<td>{{exercise.sets}}</td>
-				<td class="text-center"><a 
-					class="btn btn-danger"
-					ng-click="removeExercise($index)"><i class="icon-remove icon-white"></i></a></td>
+			<tr ng-repeat="exercise in completedExercises">
+				<td>{{exercises[exercise.exerciseId].label}} </td>
+				<td><table class="table table-striped table-bordered">
+					<thead>
+						<th>Reps</th>
+						<th>Weight (lb.)</th>
+						<th>Sets</th>
+					</thead>
+					<tbody>
+						<tr ng-repeat="setGroup in exercise.setGroups">
+							<td>{{setGroup.reps}}</td>
+							<td>{{setGroup.wt}}</td>
+							<td>{{setGroup.sets}}</td>
+						</tr>
+					</tbody>
+				</table></td>
 			</tr>
 		</tbody>
 	</table>

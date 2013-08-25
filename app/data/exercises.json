@@ -1,5 +1,5 @@
-[
-	{
+{
+	"0"	:	{
 		"label"	:	"Leg Raise on Parallel Bars",
 		"type"	:	"other",
 		"group"	:	"abso",
@@ -7,7 +7,7 @@
 			"reps"	:	15
 		}
 	},
-	{
+	"1"	:	{
 		"label"	:	"Inclined Curl Ups",
 		"type"	:	"other",
 		"group"	:	"abso",
@@ -15,7 +15,7 @@
 			"reps"	:	20
 		}
 	},
-	{
+	"2"	:	{
 		"label"	:	"Inclined Russian Twist",
 		"type"	:	"other",
 		"group"	:	"abso",
@@ -23,7 +23,7 @@
 			"reps"	:	20
 		}
 	},
-	{
+	"3"	:	{
 		"label"	:	"Seated Russian Twist",
 		"type"	:	"other",
 		"group"	:	"abso",
@@ -31,7 +31,7 @@
 			"reps"	:	20
 		}
 	},
-	{
+	"4"	:	{
 		"label"	:	"Standing Oblique Crunch",
 		"type"	:	"other",
 		"group"	:	"abso",
@@ -39,7 +39,7 @@
 			"reps"	:	10
 		}
 	},
-	{
+	"5"	:	{
 		"label"	:	"Dragon Flags",
 		"type"	:	"other",
 		"group"	:	"abso",
@@ -47,47 +47,47 @@
 			"reps"	:	5
 		}
 	},
-	{
+	"6"	:	{
 		"label"	:	"Machine Pulldown",
 		"type"	:	"machn",
 		"group"	:	"bkbi"
 	},
-	{
+	"7"	:	{
 		"label"	:	"Machine Row",
 		"type"	:	"machn",
 		"group"	:	"bkbi"
 	},
-	{
+	"8"	:	{
 		"label"	:	"Smith Machine Bent-over Row",
 		"type"	:	"machn",
 		"group"	:	"bkbi"
 	},
-	{
+	"9"	:	{
 		"label"	:	"Machine Arm Curls",
 		"type"	:	"machn",
 		"group"	:	"bkbi"
 	},
-	{
+	"10"	:	{
 		"label"	:	"Reverse Cable Curls",
 		"type"	:	"cable",
 		"group"	:	"bkbi"
 	},
-	{
+	"11"	:	{
 		"label"	:	"Wide-grip Cable Pulldown",
 		"type"	:	"cable",
 		"group"	:	"bkbi"
 	},
-	{
+	"12"	:	{
 		"label"	:	"Straight-arm Cable Pulldown",
 		"type"	:	"cable",
 		"group"	:	"bkbi"
 	},
-	{
+	"13"	:	{
 		"label"	:	"Elevated Cable Row",
 		"type"	:	"cable",
 		"group"	:	"bkbi"
 	},
-	{
+	"14"	:	{
 		"label"	:	"Dumbbell Curls",
 		"type"	:	"xbell",
 		"group"	:	"bkbi",
@@ -95,12 +95,12 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"15"	:	{
 		"label"	:	"One-arm Dumbbell Row",
 		"type"	:	"xbell",
 		"group"	:	"bkbi"
 	},
-	{
+	"16"	:	{
 		"label"	:	"Barbell 21s Curls",
 		"type"	:	"xbell",
 		"group"	:	"bkbi",
@@ -109,47 +109,47 @@
 			"calculate_wt"	:	"21 * wt"
 		}
 	},
-	{
+	"17"	:	{
 		"label"	:	"Barbell Bent-over Row",
 		"type"	:	"xbell",
 		"group"	:	"bkbi"
 	},
-	{
+	"18"	:	{
 		"label"	:	"Preacher Curl",
 		"type"	:	"xbell",
 		"group"	:	"bkbi"
 	},
-	{
+	"19"	:	{
 		"label"	:	"Machine Reverse Flys",
 		"type"	:	"machn",
 		"group"	:	"shld"
 	},
-	{
+	"20"	:	{
 		"label"	:	"Machine Shoulder Press",
 		"type"	:	"machn",
 		"group"	:	"shld"
 	},
-	{
+	"21"	:	{
 		"label"	:	"Rear-delt Cable Row",
 		"type"	:	"cable",
 		"group"	:	"shld"
 	},
-	{
+	"22"	:	{
 		"label"	:	"Upright Cable Row",
 		"type"	:	"cable",
 		"group"	:	"shld"
 	},
-	{
+	"23"	:	{
 		"label"	:	"Elevated Row to Neck",
 		"type"	:	"cable",
 		"group"	:	"shld"
 	},
-	{
+	"24"	:	{
 		"label"	:	"Shrugs",
 		"type"	:	"xbell",
 		"group"	:	"shld"
 	},
-	{
+	"25"	:	{
 		"label"	:	"Dumbbell Front Raise",
 		"type"	:	"xbell",
 		"group"	:	"shld",
@@ -157,7 +157,7 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"26"	:	{
 		"label"	:	"Dumbbell Reverse Flys",
 		"type"	:	"xbell",
 		"group"	:	"shld",
@@ -165,7 +165,7 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"27"	:	{
 		"label"	:	"Dumbbell Side Lat Raise",
 		"type"	:	"xbell",
 		"group"	:	"shld",
@@ -173,7 +173,7 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"28"	:	{
 		"label"	:	"Dumbbell Shoulder Press",
 		"type"	:	"xbell",
 		"group"	:	"shld",
@@ -181,37 +181,37 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"29"	:	{
 		"label"	:	"Barbell Military Press",
 		"type"	:	"xbell",
 		"group"	:	"shld"
 	},
-	{
+	"30"	:	{
 		"label"	:	"Machine Tricep Press",
 		"type"	:	"machn",
 		"group"	:	"chtr"
 	},
-	{
+	"31"	:	{
 		"label"	:	"Machine Arm Extensions",
 		"type"	:	"machn",
 		"group"	:	"chtr"
 	},
-	{
+	"32"	:	{
 		"label"	:	"Machine Chest Press",
 		"type"	:	"machn",
 		"group"	:	"chtr"
 	},
-	{
+	"33"	:	{
 		"label"	:	"Machine Flys",
 		"type"	:	"machn",
 		"group"	:	"chtr"
 	},
-	{
+	"34"	:	{
 		"label"	:	"Smith Machine Bench Press",
 		"type"	:	"machn",
 		"group"	:	"chtr"
 	},
-	{
+	"35"	:	{
 		"label"	:	"Assisted Dips",
 		"type"	:	"machn",
 		"group"	:	"chtr",
@@ -219,12 +219,12 @@
 			"calculate_wt"	: 0
 		}
 	},
-	{
+	"36"	:	{
 		"label"	:	"Reverse Cable Pushdown",
 		"type"	:	"cable",
 		"group"	:	"chtr"
 	},
-	{
+	"37"	:	{
 		"label"	:	"Inclined Dumbbell Press",
 		"type"	:	"cable",
 		"group"	:	"chtr",
@@ -232,7 +232,7 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"38"	:	{
 		"label"	:	"Dumbbell Flys",
 		"type"	:	"cable",
 		"group"	:	"chtr",
@@ -240,7 +240,7 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"39"	:	{
 		"label"	:	"Dumbbell Skull Crusher",
 		"type"	:	"cable",
 		"group"	:	"chtr",
@@ -248,62 +248,62 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"40"	:	{
 		"label"	:	"Bench Dips",
 		"type"	:	"other",
 		"group"	:	"chtr"
 	},
-	{
+	"41"	:	{
 		"label"	:	"Bench Press",
 		"type"	:	"xbell",
 		"group"	:	"chtr"
 	},
-	{
+	"42"	:	{
 		"label"	:	"Inclined Bench Press",
 		"type"	:	"xbell",
 		"group"	:	"chtr"
 	},	
-	{
+	"43"	:	{
 		"label"	:	"Machine Leg Extensions",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"44"	:	{
 		"label"	:	"Machine Leg Curls",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"45"	:	{
 		"label"	:	"Seated Leg Press",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"46"	:	{
 		"label"	:	"Calf Press on Leg Press",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"47"	:	{
 		"label"	:	"Smith Machine Hack Squat",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"48"	:	{
 		"label"	:	"Smith Machine Squats",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"49"	:	{
 		"label"	:	"Calf Raises",
 		"type"	:	"other",
 		"group"	:	"legs"
 	},
-	{
+	"50"	:	{
 		"label"	:	"Linear Leg Press",
 		"type"	:	"machn",
 		"group"	:	"legs"
 	},
-	{
+	"51"	:	{
 		"label"	:	"Dumbbell Squats",
 		"type"	:	"xbell",
 		"group"	:	"legs",
@@ -311,7 +311,7 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"52"	:	{
 		"label"	:	"Dumbbell Lunges",
 		"type"	:	"xbell",
 		"group"	:	"legs",
@@ -320,9 +320,9 @@
 			"calculate_wt"	:	"2 * wt"
 		}
 	},
-	{
+	"53"	:	{
 		"label"	:	"Barbell Squats",
 		"type"	:	"xbell",
 		"group"	:	"legs"
 	}	
-]
+}

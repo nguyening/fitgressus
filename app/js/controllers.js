@@ -32,15 +32,17 @@ angular.module('fitgressus.controllers', []).
 		// };
 
 	}]).
-	controller('WorkoutCtrl', ['$scope', 'workoutStateService', 'exerciseService', function($scope, workoutStateService, exerciseService) {
+	controller('WorkoutCtrl', ['$scope', '$rootScope', 'workoutStateService', 'exerciseService', function($scope, $rootScope, workoutStateService, exerciseService) {
 		workoutStateService.verifyPage('/workout');
-		$scope.workoutTypes = exerciseService.getExercises();
-		$scope.selectedWorkoutType = workoutStateService.get('selectedWorkoutType') || 0;
 
-		$scope.startExercise = function (exerciseName) {
+		$scope.exercises = exerciseService.getExercises();
+		$scope.groups = $rootScope.groups;
+		$scope.selectedMuscleGroup = workoutStateService.get('selectedMuscleGroup') || $scope.groups[0].key;
+
+		$scope.startExercise = function (exerciseId) {
 			workoutStateService.transferPage({
-				selectedWorkoutType	:	$scope.selectedWorkoutType,
-				currentExercise	:	exerciseName,
+				selectedMuscleGroup	:	$scope.selectedMuscleGroup,
+				currentExerciseId	:	exerciseId,
 			}, '/exercise');
 		};
 
@@ -48,41 +50,60 @@ angular.module('fitgressus.controllers', []).
 			workoutStateService.transferPage(null, '/finish')
 		};
 	}]).
-	controller('ExerciseCtrl', ['$scope', 'workoutStateService', function($scope, workoutStateService) {
+	controller('ExerciseCtrl', ['$scope', 'workoutStateService', 'exerciseService', function($scope, workoutStateService, exerciseService) {
 		workoutStateService.verifyPage('/exercise');
 
-		$scope.currentExercise = {
-			name : workoutStateService.get('currentExercise'),
-			reps : 7,
-			wt: 0,
-			sets: 0
-		  };
+		$scope.exercises = exerciseService.getExercises();
+		$scope.completedExercises = [];
+		
+		$scope.exerciseId = workoutStateService.get('currentExerciseId') || -1;
 
-		$scope.droppedExercises = [];
+		$scope.exerciseModel = jQuery.noConflict().extend(true, {	// have to use jQ for deep (recursive) extending..
+			label : "New Exercise",
+			type :  "other",
+			group : workoutStateService.get('selectedMuscleGroup') || "none",
+			options : {
+				wt : 0,
+				reps : 7,
+				calculate_wt : "wt",
+			},
+		}, angular.copy($scope.exercises[$scope.exerciseId]));
+
+		$scope.resetExercise = function () {
+			$scope.currentExercise = {
+				wt : $scope.exerciseModel.options.wt,
+				reps : $scope.exerciseModel.options.reps,
+				sets : 0,
+			};
+		};
+		$scope.resetExercise();	// call immediately at beginning
 
 		$scope.cancelExercise = function () {
-			workoutStateService.transferPage(null, '/workout');
+			workoutStateService.transferPage({
+				currentExerciseId : -1,
+			}, '/workout');
 		};
 
-		$scope.addExercise = function () {
+		$scope.finishExercise = function () {
 			if($scope.currentExercise.sets)
-				$scope.droppedExercises.push(angular.copy($scope.currentExercise));
+				$scope.completedExercises.push(angular.copy($scope.currentExercise));
 
-			workoutStateService.addExercises($scope.droppedExercises);
+			workoutStateService.addExercises($scope.exerciseId, $scope.completedExercises, $scope.exerciseModel);
 			workoutStateService.transferPage(null, '/workout');
 		};
 
-		$scope.dropWeight = function () {
-			$scope.droppedExercises.push(angular.copy($scope.currentExercise));
-			$scope.currentExercise.wt = 0;
-			$scope.currentExercise.sets = 0;
+		$scope.changeWeight = function () {
+			if($scope.currentExercise.sets)
+				$scope.completedExercises.push(angular.copy($scope.currentExercise));
+
+			$scope.resetExercise();
 		};
 
 		$scope.removeExercise = function (exerciseIdx) {
 			$scope.droppedExercises.splice(exerciseIdx, 1);
 		};
 	}]).
-	controller('EndCtrl', ['$scope', 'workoutStateService', function($scope, workoutStateService) {
+	controller('EndCtrl', ['$scope', 'workoutStateService', 'exerciseService', function($scope, workoutStateService, exerciseService) {
 		workoutStateService.verifyPage('/finish');
 
 		var workoutTimeSecs = ((new Date().getTime() / 1000) - workoutStateService.get('startTime'));
@@ -93,11 +114,8 @@ angular.module('fitgressus.controllers', []).
 		$scope.duration = (hours < 10 ? "0" + hours : hours) + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds  < 10 ? "0" + seconds : seconds);
 		
 		var workout = workoutStateService.get('workout');
-		$scope.exercises = workout.exercises;
-
-		$scope.removeExercise = function (exerciseIdx) {
-			$scope.exercises.splice(exerciseIdx, 1);
-		};
+		$scope.completedExercises = workout.exercises;
+		$scope.exercises = exerciseService.getExercises();
 
 		$scope.done = function () {
 			workout.duration = $scope.duration;
@@ -105,13 +123,16 @@ angular.module('fitgressus.controllers', []).
 			workoutStateService.transferPage(null, '/index');
 		};
 	}]).
-	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'workoutStateService', function ($scope, $routeParams, workoutStateService) {
+	controller('ReviewWorkoutCtrl', ['$scope', '$routeParams', 'workoutStateService', 'exerciseService', function ($scope, $routeParams, workoutStateService, exerciseService) {
 		var workouts = workoutStateService.getPrevWorkouts();
 		var idx = $routeParams.idx;
 		if(workouts.length <= idx)
-			$location.path('/index');
-		
-		$scope.workout = workouts[idx];
+			workoutStateService.transferPage(null, '/index');
+		else {
+			$scope.workout = workouts[idx];
+			$scope.completedExercises = $scope.workout.exercises;
+			$scope.exercises = exerciseService.getExercises();
+		}
 	}]);//.
 	// controller('ProgressCtrl', ['$scope', 'webStorage', function ($scope, webStorage) {
 	// 	$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
