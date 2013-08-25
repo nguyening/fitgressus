@@ -132,6 +132,30 @@ angular.module('fitgressus.controllers', []).
 			$scope.workout = workouts[idx];
 			$scope.completedExercises = $scope.workout.exercises;
 			$scope.exercises = exerciseService.getExercises();
+
+			angular.forEach($scope.completedExercises, function (exercise, exerciseId) {
+				var setGroups = exercise.setGroups;
+				var calculateWt = ($scope.exercises[exerciseId].options || { calculate_wt: "wt" }).calculate_wt || "wt";
+				calculateWt = calculateWt.replace(/wt/gi, 'exercise.wt');
+
+				var totalWt = setGroups.reduce(function (totalWt, exercise) {
+						return totalWt + (exercise.sets * exercise.reps * eval(calculateWt));
+					}, 0);
+
+				var totalReps = setGroups.reduce(function (totalReps, exercise) {
+						return totalReps + (exercise.sets * exercise.reps);
+					}, 0);
+
+				exercise.stats = {
+					totalWt : totalWt,
+					totalReps : totalReps,
+					avgWtPerRep :  (totalWt / totalReps).toFixed(1),
+				};
+			});
+
+			$scope.totalWtMoved = $scope.completedExercises.reduce(function (totalWtMoved, exercise) {
+				return totalWtMoved + exercise.stats.totalWt;
+			}, 0);
 		}
 	}]);//.
 	// controller('ProgressCtrl', ['$scope', 'webStorage', function ($scope, webStorage) {

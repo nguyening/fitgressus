@@ -3,6 +3,8 @@
 	{{workout.date}}
 	<small>{{workout.duration}}</small>
 </h3>
+
+<h4 class="text-center">Total Weight Moved: {{totalWtMoved}} lb</h4>
 </div>
 
 
@@ -14,7 +16,11 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat="exercise in completedExercises">
-				<td>{{exercises[exercise.exerciseId].label}} </td>
+				<td>
+					<p>{{exercises[exercise.exerciseId].label}} <br />
+						<code>Avg. Weight/Rep : {{exercise.stats.avgWtPerRep}} lb.</code>
+					</p>
+				</td>
 				<td><table class="table table-striped table-bordered">
 					<thead>
 						<th>Reps</th>
