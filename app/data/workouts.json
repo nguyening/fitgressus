@@ -1,78 +1,6057 @@
 [
-	{
-		"label"	:	"Abs",
-		"exercises"	:	[
-			"Inclined Curl Ups",
-			"Inclined Plate Twist",
-			"Leg Raise on Parallel Bars"
-		]
-	},
-	{
-		"label"	:	"Back & Bis",
-		"exercises"	:	[
-			"Barbell Bent-over Row",
-			"Barbell 21s Curls",
-			"Dumbbell Curls",
-			"Reverse Cable Curls",
-			"One-arm Dumbbell Row",
-			"Preacher Curl",
-			"Wide-grip Cable Pulldown",
-			"Straight-arm Cable Pulldown",
-			"Smith Machine Bent-over Row",
-			"Elevated Cable Row",
-			"Machine Pulldown",
-			"Machine Row"
-		]
-	},
-	{
-		"label"	:	"Shoulders",
-		"exercises"	:	[
-			"Shrugs",
-			"Barbell Military Press",
-			"Dumbbell Front Raise",
-			"Dumbbell Reverse Flys",
-			"Dumbbell Shoulder Press",
-			"Rear-delt Cable Row",
-			"Dumbbell Side Lat Raise",
-			"Machine Reverse Flys",
-			"Upright Cable Row",
-			"Elevated Row to Neck",
-			"Machine Shoulder Press"
-		]
-	},
-	{
-		"label"	:	"Chest & Tris",
-		"exercises"	:	[
-			"Inclined Dumbbell Press",
-			"Assisted Dips",
-			"Dumbbell Flys",
-			"Reverse Cable Pushdown",
-			"Bench Dips",
-			"Machine Tricep Press",
-			"Machine Arm Extensions",
-			"Smith Machine Bench Press",
-			"Bench Press",
-			"Inclined Bench Press",
-			"Push-ups",
-			"Machine Chest Press",
-			"Machine Flys",
-			"Dumbbell Skull Crusher"
-		]
-	},
-	{
-		"label"	:	"Legs",
-		"exercises"	:	[
-			"Barbell Squats",
-			"Dumbbell Squats",
-			"Smith Machine Squats",
-			"Dumbbell Lunges",
-			"Seated Leg Press",
-			"Leg Press",
-			"Calf Raises",
-			"Romanian Deadlift",
-			"Machine Leg Extensions",
-			"Calf Press on Leg Machine",
-			"Smith Machine Hack Squat"
-		]
-	}
+    {
+        "date": "2013-08-01",
+        "exercises": [
+            {
+                "exerciseId": 29,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 310,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 177,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 22,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 144,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 246,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 290,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 8,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 299,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 350,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 265,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 211,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 257,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 266,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 31,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 305,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 93,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 79,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 219,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 150,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 28,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 32,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 29,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 18,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 195,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 89,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 206,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 68,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 0,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 176,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 159,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 22,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 51,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 296,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 54,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:35:33"
+    },
+    {
+        "date": "2013-08-02",
+        "exercises": [
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 215,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 186,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 137,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 252,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 233,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 29,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 270,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 318,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 74,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 144,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 96,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 26,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 92,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 283,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 309,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 151,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 7,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 236,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 180,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 56,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 160,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 136,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 331,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 39,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 276,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 341,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 46,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 211,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 42,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 257,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 162,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 279,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 201,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 220,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 213,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 157,
+                        "sets": 2
+                    }
+                ]
+            }
+        ],
+        "duration": "1:46:29"
+    },
+    {
+        "date": "2013-08-03",
+        "exercises": [
+            {
+                "exerciseId": 39,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 303,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 181,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 79,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 348,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 332,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 211,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 52,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 187,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 220,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 257,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 45,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 344,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 92,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 64,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 218,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 143,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 257,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 19,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 303,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 189,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 251,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 100,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 31,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 324,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 114,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 170,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 176,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 27,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 240,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 249,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 32,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 326,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:36:45"
+    },
+    {
+        "date": "2013-08-04",
+        "exercises": [
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 133,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 185,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 161,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 116,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 253,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 207,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 155,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 58,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 174,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 224,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 65,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 255,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 243,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 307,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 239,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 173,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 251,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 28,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 335,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 252,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 296,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 22,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 271,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 171,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 40,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 173,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 40,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 128,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 42,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 288,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:52:15"
+    },
+    {
+        "date": "2013-08-05",
+        "exercises": [
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 283,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 285,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 194,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 311,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 307,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 134,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 61,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 341,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 341,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 263,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 22,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 286,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 331,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 208,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 72,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 16,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 58,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 331,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 22,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 286,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 231,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 33,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 142,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 335,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 260,
+                        "sets": 2
+                    }
+                ]
+            }
+        ],
+        "duration": "1:53:46"
+    },
+    {
+        "date": "2013-08-06",
+        "exercises": [
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 341,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 104,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 10,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 272,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 97,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 219,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 348,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 10,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 182,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 59,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 27,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 35,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 290,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 240,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 99,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 49,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 66,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 209,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 232,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 208,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 307,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 32,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 248,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 176,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 151,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 348,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:43:28"
+    },
+    {
+        "date": "2013-08-07",
+        "exercises": [
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 217,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 111,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 202,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 333,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 90,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 236,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 265,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 217,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 24,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 341,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 44,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 136,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 201,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 234,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 235,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 88,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 144,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 69,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 38,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 16,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 348,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 47,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 219,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 340,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 153,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 61,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 76,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 61,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:19:54"
+    },
+    {
+        "date": "2013-08-08",
+        "exercises": [
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 240,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 48,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 222,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 169,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 314,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 219,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 334,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 135,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 119,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 44,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 348,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 90,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 268,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 144,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 28,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 152,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 243,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 26,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 36,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 244,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 285,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 216,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 20,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 284,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 67,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 35,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 315,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 259,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:44:13"
+    },
+    {
+        "date": "2013-08-09",
+        "exercises": [
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 141,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 199,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 263,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 205,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 77,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 276,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 24,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 242,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 66,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 312,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 267,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 91,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 187,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 40,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 67,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 204,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 232,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 94,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 121,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 166,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 7,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 180,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 31,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 100,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 270,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 22,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 164,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 308,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 67,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 44,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 36,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 207,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 77,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 63,
+                        "sets": 2
+                    }
+                ]
+            }
+        ],
+        "duration": "1:06:03"
+    },
+    {
+        "date": "2013-08-10",
+        "exercises": [
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 257,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 24,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 326,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 33,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 166,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 47,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 257,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 201,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 220,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 32,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 208,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 72,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 8,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 168,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 214,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 65,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 145,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 121,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 314,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 229,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 125,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 312,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 113,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:56:34"
+    },
+    {
+        "date": "2013-08-11",
+        "exercises": [
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 120,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 281,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 195,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 20,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 95,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 247,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 216,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 308,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 329,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 187,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 64,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 252,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 101,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 188,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 201,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 233,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 174,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 262,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 8,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 75,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 44,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 116,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 137,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 197,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 199,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 219,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 210,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 166,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:28:44"
+    },
+    {
+        "date": "2013-08-12",
+        "exercises": [
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 323,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 175,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 176,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 47,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 240,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 7,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 281,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 342,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 255,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 75,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 49,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 176,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 305,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 213,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 282,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 310,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 24,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 312,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 330,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 16,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 37,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 36,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 188,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 106,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 126,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 90,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 29,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 301,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 34,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 212,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 18,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 266,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 103,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 349,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:29:54"
+    },
+    {
+        "date": "2013-08-13",
+        "exercises": [
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 119,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 105,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 56,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 90,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 52,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 23,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 343,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 292,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 175,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 205,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 122,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 28,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 194,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 234,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 78,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 64,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 76,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 168,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 137,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 89,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 150,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 152,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 78,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 223,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 26,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 173,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 66,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 33,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 78,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 189,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 302,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 52,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 166,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 87,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 26,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 224,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 247,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 104,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 249,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:22:52"
+    },
+    {
+        "date": "2013-08-14",
+        "exercises": [
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 295,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 267,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 136,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 291,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 36,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 228,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 101,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 338,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 307,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 49,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 40,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 280,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 8,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 268,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 301,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 292,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 192,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 62,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 43,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:28:35"
+    },
+    {
+        "date": "2013-08-15",
+        "exercises": [
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 307,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 202,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 135,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 98,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 25,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 101,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 89,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 296,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 16,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 216,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 292,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 8,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 88,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 211,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 242,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 24,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 173,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 28,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 271,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 133,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 55,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 249,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 180,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 36,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 43,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 261,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 219,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 292,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 219,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 26,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 31,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:59:27"
+    },
+    {
+        "date": "2013-08-16",
+        "exercises": [
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 134,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 104,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 159,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 183,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 0,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 315,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 55,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 73,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 28,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 206,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 66,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 306,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 191,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 26,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 323,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 228,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 36,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 322,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 293,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 335,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 290,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 39,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 77,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 61,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 284,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 25,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 32,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 250,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 337,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 250,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 317,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 277,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 126,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 313,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 107,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 15,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 0,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 241,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:56:31"
+    },
+    {
+        "date": "2013-08-17",
+        "exercises": [
+            {
+                "exerciseId": 33,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 140,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 161,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 241,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 181,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 29,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 348,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 81,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 278,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 203,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 327,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 29,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 135,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 105,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 346,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 342,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 323,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 27,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 253,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 292,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 147,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 234,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 49,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 258,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 135,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 16,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 14,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 193,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 89,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 56,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 346,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 141,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 46,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 204,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 77,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 274,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 321,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 349,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 27,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 268,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:07:15"
+    },
+    {
+        "date": "2013-08-18",
+        "exercises": [
+            {
+                "exerciseId": 52,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 186,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 152,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 71,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 49,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 261,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 31,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 228,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 89,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 285,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 144,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 41,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 327,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 104,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 212,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 270,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 20,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 107,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 131,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 248,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 47,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 272,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 102,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:45:14"
+    },
+    {
+        "date": "2013-08-19",
+        "exercises": [
+            {
+                "exerciseId": 10,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 22,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 84,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 37,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 21,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 94,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 22,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 234,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 293,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 44,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 46,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 158,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 237,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 119,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 10,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 140,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 196,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 238,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 147,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 197,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 22,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 180,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 132,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 7,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 225,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 174,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 18,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:07:24"
+    },
+    {
+        "date": "2013-08-20",
+        "exercises": [
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 47,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 318,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 5,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 63,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 70,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 98,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 22,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 31,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 277,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 294,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 245,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 234,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 275,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 47,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 173,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 124,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 77,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 320,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 129,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 173,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 283,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 299,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 17,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 76,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 103,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 250,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 37,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 322,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 40,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 166,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:05:35"
+    },
+    {
+        "date": "2013-08-21",
+        "exercises": [
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 232,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 151,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 143,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 47,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 96,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 217,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 290,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 167,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 258,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 177,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 293,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 44,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 60,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 23,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 15,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 32,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 200,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 241,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 299,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 15,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 60,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 285,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 95,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 33,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 122,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 301,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 57,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 324,
+                        "sets": 2
+                    }
+                ]
+            }
+        ],
+        "duration": "1:37:35"
+    },
+    {
+        "date": "2013-08-22",
+        "exercises": [
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 42,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 244,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 182,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 32,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 18,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 342,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 297,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 229,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 281,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 31,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 202,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 107,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 316,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 176,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 91,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 25,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 74,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 149,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 87,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 16,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 189,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 79,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 230,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 343,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 219,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 30,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 39,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 235,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 50,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 40,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 45,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 232,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 89,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 181,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 15,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 49,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 110,
+                        "sets": 2
+                    }
+                ]
+            }
+        ],
+        "duration": "1:31:13"
+    },
+    {
+        "date": "2013-08-23",
+        "exercises": [
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 25,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 40,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 289,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 20,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 102,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 19,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 246,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 317,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 288,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 32,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 118,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 155,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 324,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 294,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 198,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 54,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 315,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 33,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 313,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 45,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 27,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 217,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 85,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 218,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 19,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 112,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 151,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:30:33"
+    },
+    {
+        "date": "2013-08-24",
+        "exercises": [
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 292,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 168,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 213,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 295,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 33,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 268,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 246,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 24,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 170,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 106,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 118,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 172,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 343,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 293,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 90,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 118,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 329,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 118,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 258,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 202,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 105,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 252,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 259,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 40,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 105,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 346,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 24,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 77,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 78,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 171,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 39,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 144,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 302,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 191,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 87,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 245,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:19:57"
+    },
+    {
+        "date": "2013-08-25",
+        "exercises": [
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 280,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 107,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 47,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 244,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 201,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 115,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 50,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 210,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 8,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 146,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 245,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 137,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 55,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 292,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 13,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 272,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 290,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 151,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 21,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 307,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 241,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 120,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 322,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 161,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 69,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 256,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 224,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 123,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 282,
+                        "sets": 4
+                    }
+                ]
+            }
+        ],
+        "duration": "1:34:14"
+    },
+    {
+        "date": "2013-08-26",
+        "exercises": [
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 54,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 50,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 233,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 135,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 114,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 56,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 82,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 294,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 267,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 125,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 43,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 213,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 20,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 204,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 204,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 249,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 29,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 103,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 114,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 214,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 185,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 131,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 315,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 66,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 244,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 36,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 59,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 331,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 49,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 233,
+                        "sets": 3
+                    }
+                ]
+            }
+        ],
+        "duration": "1:05:57"
+    },
+    {
+        "date": "2013-08-27",
+        "exercises": [
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 266,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 213,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 331,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 333,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 33,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 255,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 47,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 156,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 262,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 244,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 229,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 302,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 270,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 3,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 143,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 134,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 308,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 49,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 141,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 162,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 1,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 222,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 285,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 235,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 41,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 285,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:02:14"
+    },
+    {
+        "date": "2013-08-28",
+        "exercises": [
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 41,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 53,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 54,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 288,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 147,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 41,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 2,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 61,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 12,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 307,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 120,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 136,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 28,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 153,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 47,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 321,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 147,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 168,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 4,
+                "setGroups": [
+                    {
+                        "reps": 7,
+                        "wt": 308,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 51,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 254,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 238,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 197,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 35,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 114,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 11,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 137,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 245,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 294,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 10,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 320,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 25,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 63,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 289,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 27,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 246,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 73,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 222,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:39:41"
+    },
+    {
+        "date": "2013-08-29",
+        "exercises": [
+            {
+                "exerciseId": 6,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 151,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 46,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 21,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 93,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 22,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 263,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 337,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 331,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 313,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 111,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 34,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 131,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 81,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 18,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 270,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 46,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 342,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 219,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 259,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 170,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 46,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 205,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 228,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 20,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 37,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 13,
+                        "wt": 260,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 145,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 42,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 66,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 276,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 48,
+                "setGroups": [
+                    {
+                        "reps": 9,
+                        "wt": 302,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 11,
+                        "wt": 83,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 26,
+                "setGroups": [
+                    {
+                        "reps": 13,
+                        "wt": 316,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 9,
+                        "wt": 261,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 29,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 45,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 179,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 12,
+                        "wt": 202,
+                        "sets": 2
+                    }
+                ]
+            }
+        ],
+        "duration": "1:12:50"
+    },
+    {
+        "date": "2013-08-30",
+        "exercises": [
+            {
+                "exerciseId": 29,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 157,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 10,
+                        "wt": 31,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 9,
+                "setGroups": [
+                    {
+                        "reps": 14,
+                        "wt": 122,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 196,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 56,
+                        "sets": 3
+                    }
+                ]
+            },
+            {
+                "exerciseId": 52,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 145,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 164,
+                        "sets": 5
+                    },
+                    {
+                        "reps": 8,
+                        "wt": 33,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 10,
+                "setGroups": [
+                    {
+                        "reps": 15,
+                        "wt": 19,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 174,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 215,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 38,
+                "setGroups": [
+                    {
+                        "reps": 11,
+                        "wt": 292,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 87,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 15,
+                        "wt": 68,
+                        "sets": 5
+                    }
+                ]
+            },
+            {
+                "exerciseId": 30,
+                "setGroups": [
+                    {
+                        "reps": 8,
+                        "wt": 242,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 23,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 200,
+                        "sets": 4
+                    },
+                    {
+                        "reps": 14,
+                        "wt": 53,
+                        "sets": 3
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 32,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 51,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 260,
+                        "sets": 4
+                    }
+                ]
+            },
+            {
+                "exerciseId": 39,
+                "setGroups": [
+                    {
+                        "reps": 10,
+                        "wt": 132,
+                        "sets": 2
+                    },
+                    {
+                        "reps": 7,
+                        "wt": 149,
+                        "sets": 2
+                    }
+                ]
+            },
+            {
+                "exerciseId": 46,
+                "setGroups": [
+                    {
+                        "reps": 12,
+                        "wt": 141,
+                        "sets": 5
+                    }
+                ]
+            }
+        ],
+        "duration": "1:57:02"
+    }
 ]

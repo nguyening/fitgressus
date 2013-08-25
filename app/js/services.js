@@ -22,7 +22,7 @@ angular.module('fitgressus.services', ['webStorageModule']).
 				currentExerciseId : webStorage.get('ls_currentExerciseId') || -1,
 				selectedMuscleGroup : webStorage.get('ls_selectedMuscleGroup'),
 				startTime : webStorage.get('ls_startTime'),
-				workout : JSON.parse(webStorage.get('ls_workout') || "{}"),
+				workout : JSON.parse(webStorage.get('ls_workout') || null),
 			};
 
 		return {
@@ -79,7 +79,7 @@ angular.module('fitgressus.services', ['webStorageModule']).
 			},
 
 			getPrevWorkouts : function () {
-				return JSON.parse(webStorage.get('workouts') || []);
+				return JSON.parse(webStorage.get('workouts') || null);
 			},
 			updatePrevWorkouts : function (workouts) {
 				webStorage.add('workouts', JSON.stringify(workouts), Infinity);

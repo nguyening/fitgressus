@@ -9,65 +9,19 @@
             return idx<10 ? dateStr+'0'+idx : dateStr+idx;
         },
         exercises: [
-            '{{repeat(10, 20)}}',
+            '{{repeat(10, 15)}}',
             {
-                name: function(idx) {
-					var choices = [
-						"Inclined Curl Ups",
-						"Inclined Plate Twist",
-						"Leg Raise on Parallel Bars",
-						"Barbell Bent-over Row",
-						"Barbell 21s Curls",
-						"Dumbbell Curls",
-						"Reverse Cable Curls",
-						"One-arm Dumbbell Row",
-						"Preacher Curl",
-						"Wide-grip Cable Pulldown",
-						"Straight-arm Cable Pulldown",
-						"Smith Machine Bent-over Row",
-						"Elevated Cable Row",
-						"Machine Pulldown",
-						"Machine Row",
-						"Shrugs",
-						"Barbell Military Press",
-						"Dumbbell Front Raise",
-						"Dumbbell Reverse Flys",
-						"Dumbbell Shoulder Press",
-						"Rear-delt Cable Row",
-						"Dumbbell Side Lat Raise",
-						"Machine Reverse Flys",
-						"Upright Cable Row",
-						"Elevated Row to Neck",
-						"Machine Shoulder Press",
-						"Inclined Dumbbell Press",
-						"Assisted Dips",
-						"Dumbbell Flys",
-						"Reverse Cable Pushdown",
-						"Bench Dips",
-						"Machine Tricep Press",
-						"Smith Machine Bench Press",
-						"Bench Press",
-						"Inclined Bench Press",
-						"Push-ups",
-						"Machine Chest Press",
-						"Dumbbell Skull Crusher",
-						"Barbell Squats",
-						"Dumbbell Squats",
-						"Smith Machine Squats",
-						"Dumbbell Lunges",
-						"Seated Leg Press",
-						"Leg Press",
-						"Calf Raises",
-						"Romanian Deadlift",
-						"Machine Leg Extensions",
-						"Calf Press on Leg Machine",
-						"Smith Machine Hack Squat"
-					];
-                    return choices[this.numeric(0, choices.length -1)];
+                exerciseId: function(idx) {
+                    return this.numeric(0, 53);
                 },
-                reps:'7',
-                wt:'{{numeric(15,350)}}',
-                sets:'{{numeric(2,5)}}'
+                setGroups: [
+                    '{{repeat(1,3)}}',
+                    {
+                        reps:'{{numeric(7, 15)}}',
+						wt:'{{numeric(15,350)}}',
+						sets:'{{numeric(2,5)}}'
+					}
+                ]
             }
         ],
         duration: '{{numeric(3600,7200,%=00:00:00)}}'
