@@ -36,7 +36,9 @@ angular.module('fitgressus', ['fitgressus.controllers', 'fitgressus.directives',
 		}});
 		$routeProvider.otherwise({redirectTo: '/index'});
 	}]).
-	run(['$rootScope', '$http', function ($rootScope, $http) {
+	run(['$rootScope', 'backwardsDataService', function ($rootScope, backwardsDataService) {
+		backwardsDataService.run();
+
 		$rootScope.groups = [
 			{
 				key	:	"abso",
@@ -59,6 +61,4 @@ angular.module('fitgressus', ['fitgressus.controllers', 'fitgressus.directives',
 				label : "Legs",
 			},
 		];
-
-
 	}]);

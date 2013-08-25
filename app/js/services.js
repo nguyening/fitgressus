@@ -3,7 +3,18 @@
 
 /* Services */
 angular.module('fitgressus.services', ['webStorageModule']).
-	value('version', '0.1').
+	value('version', '0.7').
+	// for data in browser that may not be format-compatible with this version of the app
+	factory('backwardsDataService', ['webStorage', 'version', function (webStorage, version) {
+		return {
+			run : function () {
+				var dataVersion = webStorage.get('version') || "0.0";
+				var workouts = webStorage.get('workouts') || "";
+				if(dataVersion != version)
+					webStorage.add('old_data_v'+dataVersion, workouts);
+			},
+		};
+	}]).
 	factory('workoutStateService', ['webStorage', '$location', function (webStorage, $location) {
 		// when service is instantiated, pull from web storage
 		var	globalState = {
