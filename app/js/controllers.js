@@ -23,14 +23,6 @@ angular.module('fitgressus.controllers', []).
 		$scope.reviewWorkout = function (workoutIdx) {
 			workoutStateService.transferPage(null, '/review/'+workoutIdx);
 		};
-
-		// $scope.addDummyData = function () {
-		// 	$http.get('data/previousWorkouts.json').success(function (data) {
-		// 		$scope.previousWorkouts = data;
-		// 		webStorage.add('workouts', JSON.stringify(data), Infinity);
-		// 	});
-		// };
-
 	}]).
 	controller('WorkoutCtrl', ['$scope', '$rootScope', 'workoutStateService', 'exerciseService', function($scope, $rootScope, workoutStateService, exerciseService) {
 		workoutStateService.verifyPage('/workout');
@@ -133,9 +125,9 @@ angular.module('fitgressus.controllers', []).
 			$scope.completedExercises = $scope.workout.exercises;
 			$scope.exercises = exerciseService.getExercises();
 
-			angular.forEach($scope.completedExercises, function (exercise, exerciseId) {
+			angular.forEach($scope.completedExercises, function (exercise) {
 				var setGroups = exercise.setGroups;
-				var calculateWt = ($scope.exercises[exerciseId].options || { calculate_wt: "wt" }).calculate_wt || "wt";
+				var calculateWt = ($scope.exercises[exercise.exerciseId].options || { calculate_wt: "wt" }).calculate_wt || "wt";
 				calculateWt = calculateWt.replace(/wt/gi, 'exercise.wt');
 
 				var totalWt = setGroups.reduce(function (totalWt, exercise) {
@@ -150,6 +142,7 @@ angular.module('fitgressus.controllers', []).
 					totalWt : totalWt,
 					totalReps : totalReps,
 					avgWtPerRep :  (totalWt / totalReps).toFixed(1),
+					calculateWt : calculateWt,
 				};
 			});
 
@@ -157,9 +150,9 @@ angular.module('fitgressus.controllers', []).
 				return totalWtMoved + exercise.stats.totalWt;
 			}, 0);
 		}
-	}]);//.
-	// controller('ProgressCtrl', ['$scope', 'webStorage', function ($scope, webStorage) {
-	// 	$scope.previousWorkouts = JSON.parse(webStorage.get('workouts'));
+	}]).
+	controller('ProgressCtrl', ['$scope', 'workoutStateService', 'exerciseService', function ($scope, workoutStateService, exerciseService) {
+		$scope.exercises = exerciseService.getExercises();
+		$scope.previousWorkouts = workoutStateService.getPrevWorkouts();
 		
-
-	// }]);
+	}]);
