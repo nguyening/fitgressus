@@ -12,6 +12,7 @@ angular.module('fitgressus.services', ['webStorageModule']).
 				var workouts = webStorage.get('workouts') || "";
 				if(dataVersion != version)
 					webStorage.add('old_data_v'+dataVersion, workouts);
+				webStorage.add('version', version);
 			},
 		};
 	}]).
