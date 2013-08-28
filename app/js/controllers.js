@@ -152,7 +152,21 @@ angular.module('fitgressus.controllers', []).
 		}
 	}]).
 	controller('ProgressCtrl', ['$scope', 'workoutStateService', 'exerciseService', function ($scope, workoutStateService, exerciseService) {
-		$scope.exercises = exerciseService.getExercises();
-		$scope.previousWorkouts = workoutStateService.getPrevWorkouts();
+		$scope.exerciseModels = exerciseService.getExercises();
+		$scope.previousWorkouts = [];
+
+		workoutStateService.getPrevWorkouts().forEach(function (workout) {
+			$scope.previousWorkouts.push({
+				date: workout.date,
+				totalWt: workout.exercises.reduce(function (totalWt, exercise) {
+					var calculateWt = ($scope.exerciseModels[exercise.exerciseId].options || { calculate_wt: "wt" }).calculate_wt || "wt";
+					calculateWt = calculateWt.replace(/wt/gi, 'setGroup.wt');
+
+					return totalWt + exercise.setGroups.reduce(function (grpTotalWt, setGroup) {
+						return grpTotalWt + (setGroup.sets * setGroup.reps * eval(calculateWt));
+					}, 0);
+				}, 0),
+			});
+		});
 		
 	}]);
